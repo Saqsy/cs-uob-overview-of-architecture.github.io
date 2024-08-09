@@ -1,8 +1,5 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Overview of Computer Architecture (COMSM1302)
+description: Page for the Overview of Computer Architecture unit of the University of Bristol computer science conversion MSc, code COMS20010.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+url: https://cs-uob-overview-of-architecture.github.io

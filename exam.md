@@ -1,0 +1,102 @@
+---
+layout: default
+title: Exam and quiz info
+permalink: /exam/
+---
+<details open markdown="block">
+<summary>
+Table of contents
+</summary>
+{: .text-delta}
+1. TOC
+{:toc}
+</details>
+
+Your grade for the unit will come from two in-class tests, which are exams in all but name. The first will be worth 40%, and will cover Kira's part of the unit; the second will be worth 60%, and will cover John's part of the unit. In each test, half the marks will be from a practical component (where you'll be doing the same sort of thing as in your weekly assignments) and the other half will be from an online theory component on Blackboard (where you'll be doing the same sort of thing as in your weekly workshops). 
+
+The first class test **worth 40% of the unit** will be held in week 6. The exact details are TBD, but the most likely venue is MVB 2.11 (the same room as your weekly labs). Students with Alternative Exam Arrangements (AEAs) such as extra time will take the test in a different venue, but will be emailed seperately by the school office to confirm this.
+
+The second class test **worth 60% of the unit** will be held in week 13, in the TB1 assessment period. The exact details are TBD, but the most likely venue is MVB 2.11 (the same room as your weekly labs). Students with Alternative Exam Arrangements (AEAs) such as extra time will take the test in a different venue, but will be emailed seperately by the school office to confirm this.
+
+The following rules will apply for assessments taking place as an in class test. They have been designed in line with the University’s [exam regulations](https://www.bristol.ac.uk/media-library/sites/academic-quality/documents/taught-code/annexes/university-examination-regulations.pdf) and to ensure standardisation across units.
+
+* In class tests are in **person** and cannot be sat remotely. Submitting anything from outside the test room will be considered academic malpractice.
+* Once in the test room you are required to be silent.
+* No additional time will be allowed for students arriving late.
+* No one is allowed to leave in the first 30 minutes or final 15 minutes of the test. Everyone is to remain in the room.
+* If you arrive more than 30 minutes after the start of the test, you will not be allowed into the test and will be directed to your school Office 2.19 Merchant Venturers Building.
+* You need to have your UCard with you to be shown on arrival so that your attendance can be recorded, it should also be visible on your desk at all times during the in class test.
+* You will be required to leave all bags and coats at the back of the room so please leave valuables at home wherever possible and also ensure that you are appropriately dressed for the venue and weather.
+* Drinks bottles are allowed provided they contain water only and have no labels or writing on them. Food is not allowed unless you have a medical need, in which case you should make an invigilator aware.
+* Mobile phones, smart watches or other electronic devices are not allowed at your desk.
+* You will have use of a computer.
+* All tests should be submitted in English.
+* Unless explicitly specified otherwise, no translation software, Internet access or other software is allowed other than Blackboard access to the in-class test. In particular, you are not allowed access to any other part of the unit page or unit materials on Blackboard. In this test, you are also allowed access to the exam version of Logisim and the Calculator app (in Standard and Scientific modes ONLY).
+* Unless explicitly specified, no outside materials (e.g. printed or handwritten notes or digital files) are allowed.
+* We will carry out random spot checks on people's computers to ensure they are not using any forbidden software or materials.
+
+## Mock test
+
+In week 5 (**TIME TBD**) we will run a mock test. This will be almost exactly like the real test in terms of procedures, but it doesn't have any marks associated with it and will only last for a few minutes. The point is just to make sure that everyone knows exactly what the real test will involve, what's allowed and what isn't. Attendance is optional but encouraged.
+
+## In-class test 1 details
+
+In-class test 1 will consist of two parts. The first part, the theory part, will be an auto-marked Blackboard test in exactly the same format as the Blackboard quizzes from live sessions. It will contain roughly 11 questions and will be marked out of 50. Partial credit will be available for multi-part questions. The second part, the practical part, will ask you to modify and submit a skeleton Logisim file with one subcircuit for each question. It will contain 4 questions and will also be marked out of 50. You will get full marks for any circuit which behaves as specified in the question, with partial marks available for circuits with minor bugs - in particular, you will not be marked based on neatness, choice of components, or your approach to the problem unless this is specifically noted in the question. Each question will have a list of which components you are allowed to use - in addition to this, you may create your own subcircuits or use anything in the "wiring" sub-menu. Your final mark for test 1 will be the sum of your marks for the theory and practical part. 
+
+You will be allowed use of the exam version of Logisim **only**. This is linked from the mock test on Blackboard here (**LINK TBD**), and will be linked from the main test as well. The only difference between it and normal Logisim is that it removes the Project -> Analyse Circuit menu option, which gives various options like automatically building a circuit from a truth table that would be too powerful in an exam setting. Use of the non-exam version of Logisim will be considered academic malpractice (i.e. cheating).
+
+You will be allowed use of the pre-installed calculator apps (Calculator or KCalc) **only**, in their standard or scientific modes **only**. (In Calculator, these are called "basic" and "advanced"; in KCalc, they are called "simple" and "science".) In particular, you must **not** use any mode of any calculator app with native support for binary, octal, or hexadecimal numbers; typically this mode is called a "programming" mode or similar. You may not bring a physical calculator into the test, as most physical calculators have the ability to convert automatically between decimal and binary. Use of any calculator or calculator mode with native support for binary, octal, or hexadecimal numbers will be considered academic malpractice.
+
+You will be given rough paper and a physical copy of this reference sheet (**LINK TBD**) and the test paper (both the practical part and the theory part). Do not bring your own rough paper or reference sheet into the test room. The reference sheet contains:
+
+* A table of SI units.
+* A reference for behaviour of the Hack ALU.
+* The formula introduced in lectures for calculating base-2 logarithms from base-10 or base-e logarithms.
+
+Results and feedback will be made available no later than 2-3 weeks after the test, accompanied by a Blackboard announcement. Two practice papers are available below; the actual test will be similar in form and content. (**LINKS TBD**)
+
+* Practice paper A: Theory part (answers)
+* Practice paper A: Practical part (skeleton, answers)
+* Practice paper B: Theory part (answers)
+* Practice paper B: Practical part (answers)
+
+## In-class test 1 examinability
+
+By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.)
+
+Over the course of the weekly assignments, you're expected to have become familiar with Logisim components for circuits we've covered explicitly (e.g. counters, registers, flip-flops etc.) in the lecture slides. You're not expected to have become familiar with Logisim components for circuits we haven't covered (e.g. shift registers, comparators etc.) It's also worth remembering that in the exam, you can always hover over a pin of a Logisim component to get a quick reminder of what it does, so you don't have to memorise anything.
+
+Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Closer to the test date, we will add a detailed list to this section for easy reference.
+
+## In-class test 2 details
+
+In-class test 2 will consist of two parts. The first part, the theory part, will be an auto-marked Blackboard test in exactly the same format as the Blackboard quizzes from live sessions and the theory part of test 1. It will contain roughly 11 questions and will be marked out of 50. Partial credit will be available for multi-part questions. The second part, the practical part, will ask you to submit a .zip file with one .asm file for each question. It will contain 4 questions and will also be marked out of 50. You will get full marks for any assembly program which behaves as specified in the question, with partial marks available for programs with minor bugs - in particular, if your program works then you will not be marked down based on neatness, code hygiene, efficiency, or your approach to the problem unless this is specifically noted in the question. However, if your code doesn't work, you may get partial credit based on your thought process. For this reason, we recommend writing comments as you go. Your final mark for test 2 will be the sum of your marks for the theory and practical part.
+
+You will be allowed use of the following software **only**:
+
+* The Hack CPU emulator.
+* The Hack assembler.
+* A web browser (which may only be used to fill out the theory part of the test and submit the practical part of the test).
+* The pre-installed text editor "Text editor" to write your assembly code. (You are not allowed to use VS Code, as there are Hack plugins available for it.)
+* The pre-installed calculator apps (Calculator and KCalc) in any mode.
+* A terminal only to start the CPU emulator and assembler (since they run as shell scripts).
+
+You may not bring a physical calculator into the test, as in the absence of an approved model whitelist it's hard to tell from a distance which calculators are programmable and which aren't. You will be given rough paper and a physical copy of this reference sheet (**LINK TBD**) and the test paper (both the practical part and the theory part). Do not bring your own rough paper or reference sheet into the exam room. Use of outside materials will be considered academic malpractice and dealt with harshly. The reference sheet contains:
+
+* A table of Hack characters and their integer values.
+* A reference for the format of A-instructions, C-instructions, and most of Hack assembly.
+* A reference for the arithmetic and logical operations supported by Hack VM.
+* A reference for the standard memory map from Hack VM to Hack assembly.
+
+Results and feedback will be made available in January by email at the same time as your results from Programming in C and Overview of Software Tools. Two practice papers are available below; the actual test will be similar in form and content. (**LINKS TBD**)
+
+* Practice paper A: Theory part (answers)
+* Practice paper A: Practical part (skeleton, answers)
+* Practice paper B: Theory part (answers)
+* Practice paper B: Practical part (answers)
+
+## Test 2 examinability
+
+By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.) 
+
+Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Closer to the test date, we will add a detailed list to this section for easy reference.
