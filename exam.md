@@ -53,6 +53,8 @@ You will be given rough paper and a physical copy of [this reference sheet](../e
 * A reference for behaviour of the Hack ALU.
 * The formula introduced in lectures for calculating base-2 logarithms from base-10 or base-e logarithms.
 
+During the test, an invigilator may briefly interrupt you and ask to see all the applications you have open. This is typically nothing to worry about - we will be carrying out these checks randomly throughout the test to prevent cheating, and they only take a few seconds.
+
 Results and feedback will be made available no later than 2-3 weeks after the test, accompanied by a Blackboard announcement. 
 
 <!--Two practice papers are available below; the actual test will be similar in form and content. Note that these papers don't have any questions on transistors, but transistors *are* examinable.
