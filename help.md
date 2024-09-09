@@ -19,10 +19,10 @@ Before contacting anyone, it's worth skimming through this FAQ (or using the ful
 ### I need help understanding a concept from the unit. What should I do?
 
 You have several good options:
-1. Ask a question in the unit team ***TODO LINK***, and a TA or lecturer will answer within one working day. Try to make your question specific, though - "I don't understand the link between truth tables and electrical signals" will get you a more helpful response than "I don't understand gates".
+1. Ask a question in the unit team (link TBD), and a TA or lecturer will answer within one working day. Try to make your question specific, though - "I don't understand the link between truth tables and electrical signals" will get you a more helpful response than "I don't understand gates".
 1. Ask a question in the weekly Q&A, which you can do either in the room or anonymously via Padlet. I'll prioritise questions about the current week's material, but you can ask questions about earlier weeks as well.
-1. Ask a lecturer or TA during a weekly lab or live session. ***FILL IN DAYS/TIMES***
-1. Attend one of the weekly office hours or TA drop-in sessions and ask a lecturer or TA there. ***FILL IN DAYS/TIMES***
+1. Ask a lecturer or TA during one of the Tuesday live sessions or Thursday labs. 
+1. Attend one of the weekly Monday office hours or TA drop-in sessions (on most other days) and ask a lecturer or TA there.
 1. Take a look at the recommended readings for the week [here](../readings) to get a different view on the topic from the lecture notes.
 1. If all else fails, try Google! Nothing in this unit is so obscure you can't find good sources online.
 
@@ -48,10 +48,10 @@ It's still moderated - all Padlet posts need to be approved before they'll show 
 
 Kira Clements (email address [kira.clements@bristol.ac.uk](mailto:kira.clements@bristol.ac.uk)) will be teaching the first half of the unit in weeks 1-4. 
 
-John Lapinskas (email address [john.lapinskas@bristol.ac.uk](mailto:john.lapinskas@bristol.ac.uk)) will be teaching the second half of the unit in weeks 5-11 (which includes reading week). He is also the unit director.
+John Lapinskas (email address [john.lapinskas@bristol.ac.uk](mailto:john.lapinskas@bristol.ac.uk)) will be teaching the second half of the unit in weeks 5 and 7-11. He is also the unit director.
 
 As set out above, please don't contact us for general questions about the unit - you'll get much faster answers if you ask on the unit Team or the weekly Q&A instead.
 
 ## The unit team
 
-Everyone taking this unit should have been added to a Microsoft Team called ***FILL IN NAME***. Access to lecture videos will be restricted to members of this team. If you've joined the unit late, you might not have been added - in that case, please email us and we'll add you ourselves.
+Everyone taking this unit should have been added to a Microsoft Team. Access to lecture videos will be restricted to members of this team. If you've joined the unit late, you might not have been added - in that case, please email us and we'll add you ourselves.

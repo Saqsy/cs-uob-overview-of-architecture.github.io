@@ -37,28 +37,32 @@ The following rules will apply for assessments taking place as an in class test.
 
 ## Mock test
 
-In week 5 (**TIME TBD**) we will run a mock test. This will be almost exactly like the real test in terms of procedures, but it doesn't have any marks associated with it and will only last for a few minutes. The point is just to make sure that everyone knows exactly what the real test will involve, what's allowed and what isn't. Attendance is optional but encouraged.
+In week 5 we will run a mock test - more details will be available closer to the time. This will be almost exactly like the real test in terms of procedures, but it doesn't have any marks associated with it and will only last for a few minutes. The point is just to make sure that everyone knows exactly what the real test will involve, what's allowed and what isn't. Attendance is optional but encouraged.
 
 ## In-class test 1 details
 
 In-class test 1 will consist of two parts. The first part, the theory part, will be an auto-marked Blackboard test in exactly the same format as the Blackboard quizzes from live sessions. It will contain roughly 11 questions and will be marked out of 50. Partial credit will be available for multi-part questions. The second part, the practical part, will ask you to modify and submit a skeleton Logisim file with one subcircuit for each question. It will contain 4 questions and will also be marked out of 50. You will get full marks for any circuit which behaves as specified in the question, with partial marks available for circuits with minor bugs - in particular, you will not be marked based on neatness, choice of components, or your approach to the problem unless this is specifically noted in the question. Each question will have a list of which components you are allowed to use - in addition to this, you may create your own subcircuits or use anything in the "wiring" sub-menu. Your final mark for test 1 will be the sum of your marks for the theory and practical part. 
 
-You will be allowed use of the exam version of Logisim **only**. This is linked from the mock test on Blackboard here (**LINK TBD**), and will be linked from the main test as well. The only difference between it and normal Logisim is that it removes the Project -> Analyse Circuit menu option, which gives various options like automatically building a circuit from a truth table that would be too powerful in an exam setting. Use of the non-exam version of Logisim will be considered academic malpractice (i.e. cheating).
+You will be allowed use of the exam version of Logisim **only**, available [here](../exam_files/LogiExam.jar). The only difference between this and the normal version of Logisim is that it removes the Project -> Analyse Circuit menu option, which gives various options like automatically building a circuit from a truth table that would be too powerful in an exam setting. Use of the non-exam version of Logisim will be considered academic malpractice (i.e. cheating).
 
 You will be allowed use of the pre-installed calculator apps (Calculator or KCalc) **only**, in their standard or scientific modes **only**. (In Calculator, these are called "basic" and "advanced"; in KCalc, they are called "simple" and "science".) In particular, you must **not** use any mode of any calculator app with native support for binary, octal, or hexadecimal numbers; typically this mode is called a "programming" mode or similar. You may not bring a physical calculator into the test, as most physical calculators have the ability to convert automatically between decimal and binary. Use of any calculator or calculator mode with native support for binary, octal, or hexadecimal numbers will be considered academic malpractice.
 
-You will be given rough paper and a physical copy of this reference sheet (**LINK TBD**) and the test paper (both the practical part and the theory part). Do not bring your own rough paper or reference sheet into the test room. The reference sheet contains:
+You will be given rough paper and a physical copy of [this reference sheet](../exam_files/reference.pdf) and the test paper (both the practical part and the theory part). Do not bring your own rough paper or reference sheet into the test room. The reference sheet contains:
 
 * A table of SI units.
 * A reference for behaviour of the Hack ALU.
 * The formula introduced in lectures for calculating base-2 logarithms from base-10 or base-e logarithms.
 
-Results and feedback will be made available no later than 2-3 weeks after the test, accompanied by a Blackboard announcement. Two practice papers are available below; the actual test will be similar in form and content. (**LINKS TBD**)
+Results and feedback will be made available no later than 2-3 weeks after the test, accompanied by a Blackboard announcement. 
 
-* Practice paper A: Theory part (answers)
-* Practice paper A: Practical part (skeleton, answers)
-* Practice paper B: Theory part (answers)
-* Practice paper B: Practical part (answers)
+<!--Two practice papers are available below; the actual test will be similar in form and content. Note that these papers don't have any questions on transistors, but transistors *are* examinable.
+
+* [Practice paper A: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184643_1&mode=cpview) (model answers available on submission, just click OK)
+* [Practice paper A: Practical part](../exam_files/Paper_A_practical.pdf) ([skeleton file](../exam_files/Paper_A_practical_skeleton.circ), [model answers](../exam_files/Paper_A_practical_answers.circ))
+* [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184673_1&mode=cpview) (model answers available on submission, just click OK)
+* [Practice paper B: Practical part](../exam_files/Paper_1B_practical.pdf) ([skeleton](../exam_files/Paper_1B_practical_skeleton.circ), model answers TBD)
+
+**DO NOT TAKE THESE LIVE YET**, formats need harmonising and paper B may need revising -->
 
 ## In-class test 1 examinability
 
@@ -68,7 +72,7 @@ Over the course of the weekly assignments, you're expected to have become famili
 
 Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Closer to the test date, we will add a detailed list to this section for easy reference.
 
-## In-class test 2 details
+<!--## In-class test 2 details
 
 In-class test 2 will consist of two parts. The first part, the theory part, will be an auto-marked Blackboard test in exactly the same format as the Blackboard quizzes from live sessions and the theory part of test 1. It will contain roughly 11 questions and will be marked out of 50. Partial credit will be available for multi-part questions. The second part, the practical part, will ask you to submit a .zip file with one .asm file for each question. It will contain 4 questions and will also be marked out of 50. You will get full marks for any assembly program which behaves as specified in the question, with partial marks available for programs with minor bugs - in particular, if your program works then you will not be marked down based on neatness, code hygiene, efficiency, or your approach to the problem unless this is specifically noted in the question. However, if your code doesn't work, you may get partial credit based on your thought process. For this reason, we recommend writing comments as you go. Your final mark for test 2 will be the sum of your marks for the theory and practical part.
 
@@ -81,22 +85,26 @@ You will be allowed use of the following software **only**:
 * The pre-installed calculator apps (Calculator and KCalc) in any mode.
 * A terminal only to start the CPU emulator and assembler (since they run as shell scripts).
 
-You may not bring a physical calculator into the test, as in the absence of an approved model whitelist it's hard to tell from a distance which calculators are programmable and which aren't. You will be given rough paper and a physical copy of this reference sheet (**LINK TBD**) and the test paper (both the practical part and the theory part). Do not bring your own rough paper or reference sheet into the exam room. Use of outside materials will be considered academic malpractice and dealt with harshly. The reference sheet contains:
+You may not bring a physical calculator into the test, as in the absence of an approved model whitelist it's hard to tell from a distance which calculators are programmable and which aren't. You will be given rough paper and a physical copy of [this reference sheet](../exam_files/reference2.pdf) and the test paper (both the practical part and the theory part). Do not bring your own rough paper or reference sheet into the exam room. Use of outside materials will be considered academic malpractice and dealt with harshly. The reference sheet contains:
 
 * A table of Hack characters and their integer values.
 * A reference for the format of A-instructions, C-instructions, and most of Hack assembly.
 * A reference for the arithmetic and logical operations supported by Hack VM.
 * A reference for the standard memory map from Hack VM to Hack assembly.
 
-Results and feedback will be made available in January by email at the same time as your results from Programming in C and Overview of Software Tools. Two practice papers are available below; the actual test will be similar in form and content. (**LINKS TBD**)
+Results and feedback will be made available in January by email at the same time as your results from Programming in C and Overview of Software Tools. 
 
-* Practice paper A: Theory part (answers)
-* Practice paper A: Practical part (skeleton, answers)
-* Practice paper B: Theory part (answers)
-* Practice paper B: Practical part (answers)
+Two practice papers are available below; the actual test will be similar in form and content.
+
+* [Practice paper A: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184855_1&mode=cpview) (model answers available on submission)
+* [Practice paper A: Practical part](../exam_files/Paper_2A_practical.pdf) ([model answers](../exam_files/Paper_2A_practical_answers.zip))
+* [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184866_1&mode=cpview)
+* [Practice paper B: Practical part](../exam_files/Paper_2B_practical.pdf) ([model answers](../exam_files/Paper_2B_practical_answers.zip))
+
+**DO NOT TAKE THESE LIVE YET**, formats need harmonising and paper B may need revising
 
 ## Test 2 examinability
 
 By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.) 
 
-Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Closer to the test date, we will add a detailed list to this section for easy reference.
+Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Closer to the test date, we will add a detailed list to this section for easy reference.-->
