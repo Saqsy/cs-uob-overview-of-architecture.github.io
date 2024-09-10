@@ -13,27 +13,29 @@ Table of contents
 {:toc}
 </details>
 
-## Logisim
+## LogiExam
 
-Logisim is a widely-beloved free application for designing and simulating digital circuits, which you will use for your weekly assignments throughout the first half of the unit as well as your first exam. Logisim is a Java application, so you may need to install Java before you can run it (our lab computers already have Java installed, so this applies mostly to running it on your own computer). Logisim can be obtained [here](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/) - you will three choices of which Logisim release to download:
+Logisim is a widely-beloved free cross-platform application for designing and simulating digital circuits, which you will use for your weekly assignments throughout the first half of the unit as well as your first exam. This unit will mostly use a trivial fork of Logisim called LogiExam. The only difference between Logisim and LogiExam is that in LogiExam the Project -> Analyse Circuit menu option is disabled, since this gives various options like automatically building a circuit from a truth table that would be too powerful in a test setting. As such, we will consider use of the unmodified version of Logisim in a test setting to be academic malpractice (i.e. cheating).
 
-1. A Windows .exe file: recommended for Windows.
-1. A .jar file: recommended for Mac or Linux.
-1. A .tar.gz file: this is officially billed as a "Mac version", but in our experience Mac users are better off with the .jar file.
+On lab computers, LogiExam is installed by default and should be accessible from the menu. You can also install LogiExam on your own machine. It's available [here](../exam_files/LogiExam.jar) - the same .jar file works on Windows, Mac and Linux. You will first need to make sure you have JDK installed from [here](https://www.oracle.com/uk/java/technologies/downloads/#jdk21-windows). Then place LogiExam.jar in the working directory from which you start your terminal and where you intend to keep your work. You can then run it from the terminal as follows:
 
-You will likely be able to start Logisim by double-clicking your downloaded file but for the .jar file you may want to place it in the working directory from which you start your terminal and where you intend to keep your work. Assuming the download is called logisim-generic-2.7.1.jar, you can then run Logisim as follows:
-
-_java -jar logisim-generic-2.7.1.jar_
+_java -jar LogiExam.jar_
 
 Or, if your JAR file is in your Downloads/ directory, you can run it using:
 
-_java -jar ~/Downloads/logisim-generic-2.7.1.jar_
+_java -jar ~/Downloads/LogiExam.jar_
 
-If you need help with using the Logisim software, you can refer to the Logic gate lecture and the complete [Logisim user guide](http://www.cburch.com/logisim/docs/2.3.0/guide/index.html). Labs are also the perfect opportunity to get support with using the software!
+If you need help with using LogiExam, you can refer to the Logic gate lecture and the complete [Logisim user guide](http://www.cburch.com/logisim/docs/2.3.0/guide/index.html). Labs are also the perfect opportunity to get support with using the software!
 
-## LogiExam
+### Other versions of LogiExam
 
-In in-class test 1, you will use a special fork of Logisim available in .jar form [here](http://127.0.0.1:4000/exam_files/LogiExam.jar). The only difference between this and the normal version of Logisim is that it removes the Project -> Analyse Circuit menu option, which gives various options like automatically building a circuit from a truth table that would be too powerful in an exam setting. Use of the non-exam version of Logisim will be considered academic malpractice (i.e. cheating).
+There are two other versions of LogiExam you may want to use. The first is the original Logisim, for the Project -> Analyse Circuit menu option - while you are not allowed to use this option in tests, you may find it helpful for debugging circuits in weekly assignments or in revising for the test. You can download it [here](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/). You will have three choices of which Logisim release to download:
+
+1. A Windows .exe file: recommended for Windows.
+1. A .jar file: recommended for Mac or Linux.
+1. A .tar.gz file: this is labelled as the "Mac version", but in our experience Mac users are better off with the .jar file.
+
+The second is Logisim Evolution, which is available [here](https://github.com/logisim-evolution/logisim-evolution) and is pre-installed on the lab machines. This is a newer fork of Logisim which (unlike the original) is actively maintained and which has more features. Unfortunately, the interface is also subtly different from LogiExam and the original Logisim, and there is limited compatibility between the two programs. Given that the extra features are mostly overkill for this unit and that you'll have to use the original Logisim in tests anyway, it's much better to avoid it for the most part.
 
 ## NAND boards
 
