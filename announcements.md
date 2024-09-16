@@ -17,7 +17,7 @@ Table of contents
 ## Welcome!
 Welcome to Overview of Computer Architecture!
 
-Week 1 materials are now available on the [unit GitHub page](../index/#schedule-and-links-to-materials), introducing you to the beginning of digital electronics.
+Week 1 materials are now available on the [unit GitHub page](../#schedule-and-links-to-materials), introducing you to the beginning of digital electronics.
 
 Your first scheduled in-person session with us **(tomorrow) will be an overview of the course** - you don't need to prepare anything in advance for this! However, we do expect that you'll have begun to review this week's materials before Wednesday's Q&A session, where you can bring any content related questions, and that you'll have started to attempt this week's assignment before Thursday's labs. We'll be providing more information on these tomorrow, so please bring any general questions to us then!
 
