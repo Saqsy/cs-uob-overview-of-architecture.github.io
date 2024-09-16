@@ -14,4 +14,11 @@ Table of contents
 
 # Announcements Page
 
-Nothing here yet!
+## Welcome!
+Welcome to Overview of Computer Architecture!
+
+Week 1 materials are now available on the [unit GitHub page](../index/#schedule-and-links-to-materials), introducing you to the beginning of digital electronics.
+
+Your first scheduled in-person session with us **(tomorrow) will be an overview of the course** - you don't need to prepare anything in advance for this! However, we do expect that you'll have begun to review this week's materials before Wednesday's Q&A session, where you can bring any content related questions, and that you'll have started to attempt this week's assignment before Thursday's labs. We'll be providing more information on these tomorrow, so please bring any general questions to us then!
+
+For any questions outside of these contact hours; John, our wonderful TAs, and I will be keeping an eye on our [unit's Team page](https://teams.microsoft.com/l/channel/19%3AOSEjrcGJhpxWkwqh7jvjcajSoAqYsCGurNirz1btAfU1%40thread.tacv2/General?groupId=14207547-df04-4db6-8a5d-f1f336aa184d&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
