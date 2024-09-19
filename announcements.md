@@ -19,7 +19,7 @@ Table of contents
 Hi everyone,
  
 It looks like our procedures for monitoring attendance have changed since last year, and we gave out some incorrect information in the intro talk on Tuesday - we won't be using Qwickly, but the University of Bristol app. Sorry about that - we've now put up much more detail on how this works on the unit page [here](
-https://cs-uob-overview-of-architecture.github.io/attendance/), and removed the old Blackboard subpage which no longer works. If the school office gets in touch asking about non-attendance for week 1, please just blame us!
+https://cs-uob-overview-of-architecture.github.io/attendance), and removed the old Blackboard subpage which no longer works. If the school office gets in touch asking about non-attendance for week 1, please just blame us!
  
 Best wishes,
  

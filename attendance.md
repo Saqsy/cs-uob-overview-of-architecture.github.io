@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Attendance
-nav_order: 1
 permalink: /attendance
 ---
 
