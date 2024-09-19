@@ -4,9 +4,3 @@ theme: just-the-docs
 
 url: https://cs-uob-overview-of-architecture.github.io
 color_scheme: dark
-
-nav_external_links:
-  - title: Attendance (via Qwickly)
-    url: https://www.ole.bris.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_8662659_1&course_id=_260193_1&mode=reset
-    hide_icon: false # set to true to hide the external link icon - defaults to false
-    opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
