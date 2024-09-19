@@ -14,6 +14,20 @@ Table of contents
 
 # Announcements Page
 
+## Asking questions and drop-in sessions
+
+For all those asking how they can get some help outside of the labs, in addition to the Teams channel (please post questions!!), we have office hours scheduled for you to come and discuss with us in a small group setting:
+
+- Fridays 12-1pm, in weeks 1-5, 7-9 & 12 in MVB 4.01 with our wonderful lead TA Alex (starting tomorrow!)
+- Mondays 11-12pm, weeks 2-5 & 7-12 in MVB 4.01 with Kira (weeks 2-5) or John (weeks 7-12)
+
+These are entirely optional sessions in a small room (that only has a ~20 person capacity) so please do come along if you have specific questions for us, but otherwise the Wednesday Q&A sessions are a great opportunity to ask us lots as well as hear other people's questions!
+
+We plan to have more of these drop-in session on offer soon, so keep an eye out for a further announcement.
+
+All the best,
+Kira and John
+
 ## Attendance monitoring info error
 
 Hi everyone,
@@ -33,3 +47,6 @@ Week 1 materials are now available on the [unit GitHub page](../#schedule-and-li
 Your first scheduled in-person session with us **(tomorrow) will be an overview of the course** - you don't need to prepare anything in advance for this! However, we do expect that you'll have begun to review this week's materials before Wednesday's Q&A session, where you can bring any content related questions, and that you'll have started to attempt this week's assignment before Thursday's labs. We'll be providing more information on these tomorrow, so please bring any general questions to us then!
 
 For any questions outside of these contact hours; John, our wonderful TAs, and I will be keeping an eye on our [unit's Team page](https://teams.microsoft.com/l/channel/19%3AOSEjrcGJhpxWkwqh7jvjcajSoAqYsCGurNirz1btAfU1%40thread.tacv2/General?groupId=14207547-df04-4db6-8a5d-f1f336aa184d&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
+
+All the best,
+Kira and John
