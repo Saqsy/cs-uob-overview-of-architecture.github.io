@@ -14,6 +14,17 @@ Table of contents
 
 # Announcements Page
 
+## Another week of Architecture
+
+Week 2 lectures and labsheet are now available on the [unit GitHub page](../#schedule-and-links-to-materials)!
+
+Answers to last week's labsheet as well as links to the recording and padlet from last week's Q&A session have also be uploaded.
+
+As a reminder, tomorrow's workshop is based on last week's materials (so doesn't require you to have looked at anything from week 2 yet) - we'll start off with a live Logisim circuit building session, followed by a formative (does not count towards your unit grade) Blackboard quiz with TA support.
+
+All the best,
+Kira and John
+
 ## Asking questions and drop-in sessions
 
 For all those asking how they can get some help outside of the labs, in addition to the Teams channel (please post questions!!), we have office hours scheduled for you to come and discuss with us in a small group setting:
