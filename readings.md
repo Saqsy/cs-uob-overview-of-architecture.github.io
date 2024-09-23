@@ -30,3 +30,11 @@ This course will use three main textbooks. None of them are required reading, bu
 **The Elements of Computing Systems:** Chapter 1.1 covers Boolean algebra, chapter 1.2 covers logic gates.
 
 **Digital Design and Computer Architecture:** Chapters 1.5 and 2.4 cover logic gates, chapters 2.2 and 2.3 cover Boolean algebra, chapter 2.5.2 covers bubble pushing, and chapter 2.7 covers Karnaugh maps.
+
+## Week 2 reading
+
+**The Elements of Computing Systems:** Section 1.4.2 covers plexers, chapter 2.2 covers binary numbers, chapter 2.3 covers binary addition, chapter 2.4 covers 2's complement, chapter 2.5 covers adders and the Hack ALU.
+
+**Digital Design and Computer Architecture:** Chapter 1.4 covers decimal, binary, and hexadecimal numbers, binary addition, sign-magntide and 2's complement representation, section 2.8.1 covers multiplexers, chapter 5.2 covers adders, subtraction, and the ALU, chapter 5.3 covers fixed-point and flaoting-point numbers.
+
+**What every computer scientist should know about floating-point arithmetic:** Found [here](https://dl.acm.org/doi/10.1145/103162.103163), provides useful but non-examinable information on floating point rounding errors.
