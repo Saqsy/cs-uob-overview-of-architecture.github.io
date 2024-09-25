@@ -14,6 +14,22 @@ Table of contents
 
 # Announcements Page
 
+## More drop-in sessions
+
+Quick announcement to say we have some additional TA sessions available starting from next week (see those in bold below):
+
+- Mondays 11-12pm, weeks 2-5 & 7-12 in MVB 4.01 with Kira (weeks 2-5) or John (weeks 7-12)
+- **Tuesdays 3-4pm, weeks 3-5 & 7-12 in FRY G.16 with Ali**
+- **Wednesdays 4-5pm, weeks 3-5 & 7-12 in FRY G.16 with Nathan**
+- Fridays 12-1pm, weeks 1-5, 7-9 & 12 in MVB 4.01 with Alex
+
+This information has now been updated on our Github page as well, in case you'd like a reminder of when/where these sessions are.
+
+To reiterate, these are entirely optional and each in a small room (16-20 person capacity) so do come along if you have specific questions for us, but as first point of call for questions outside of in-person sessions, please do also remember that our Teams channel is available and we have eager TAs specifically keeping an eye, ready to answer your questions!
+
+All the best,
+Kira and John
+
 ## Another week of Architecture
 
 Week 2 lectures and labsheet are now available on the [unit GitHub page](../#schedule-and-links-to-materials)!
