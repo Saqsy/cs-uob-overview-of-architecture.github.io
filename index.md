@@ -41,7 +41,7 @@ A **weekly assignment** and **solutions to last week's assignment** will be rele
 **Office hours** are hour-long **optional** (and hence untimetabled) sessions in which you can ask Kira or I questions one-on-one or with a small group of friends. We also have an assortment of **optional** hour-long drop-in sessions throughout the week run by our best and brightest TAs:
 
 - Mondays 11-12pm, weeks 2-5 & 7-12 in MVB 4.01 with Kira (weeks 2-5) or John (weeks 7-12)
-- Tuesdays 3-4pm, weeks 3-5 & 7-12 in FRY G.16 with Ali
+- Tuesdays 3-4pm, weeks 3-4 & 7-12 in FRY G.16 with Ali
 - Wednesdays 4-5pm, weeks 3-5 & 7-12 in FRY G.16 with Nathan
 - Fridays 12-1pm, weeks 1-5, 7-9 & 12 in MVB 4.01 with Alex
 
