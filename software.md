@@ -47,7 +47,7 @@ Current versions of the boards also feature four push-buttons, which provide log
 
 ### Access to NAND boards
 
-NAND boards will be made available during the week 1-4 labs, please do not take these home as other units need them throughout the week! There may be a small supply available to borrow if you'd like to get some practice using a NAND board outside of labs - we will add more information as we get it.
+NAND boards will be made available during the week 1-4 labs, please do not take these home as other units need them throughout the week! NAND boards are now available to borrow from the hackspace, if you'd like to get some practice using a NAND board outside of labs. To do so, please follow [this booking link](https://outlook.office365.com/owa/calendar/bk_NANDBoards@bristol.ac.uk/bookings/) to arrange a time to collect one!
  
 ### Building with NAND boards
 
