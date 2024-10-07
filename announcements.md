@@ -14,6 +14,15 @@ Table of contents
 
 # Announcements Page
 
+## Week 4 content
+
+Week 4 materials are now (mostly) live on the unit's Github page!
+
+Unfortunately I've had some technical issues with recordings, so only the slides are currently available for lectures 4.2 - 4.4. I do have to apologise for this, and I'll do my best to get the recordings sorted and released this evening!
+
+All the best,
+Kira and John
+
 ## More drop-in sessions
 
 Quick announcement to say we have some additional TA sessions available starting from next week (see those in bold below):
