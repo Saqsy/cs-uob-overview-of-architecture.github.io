@@ -44,3 +44,9 @@ This course will use three main textbooks. None of them are required reading, bu
 **The Elements of Computing Systems:** Chapter 3 covers timing diagrams, the clock, registers, and memory in general. It takes D flip-flops as a black box (which it calls a DFF) rather than explaining how they work, but does a good job of explaining how they work and how to use them.
 
 **Digital Design and Computer Architecture:** Chapter 3.2.1 covers R-S latches, 3.2.2 covers D latches, 3.2.3 covers D flip-flops, and 3.2.4 covers registers (minus a load input which is covered in 3.2.5). Chapters 3.3 and 3.5 discuss issues around propagation delay, but in far more detail than this unit requires. Chapter 5.5 covers memory.
+
+## Week 4 reading
+
+**The Elements of Computing Systems:** Chapter 3 covers the behaviour of the Hack program counter in particular.
+
+**Digital Design and Computer Architecture:** Chapter 1.6 covers digital abstraction and chapter 1.7 covers transistors, but both in far more detail than is required for this unit! Chapters 3.4.1 to 3.4.3 cover finite state machines, chapter 5.4.1 covers counters, and chapter 5.5 covers memory arrays include SRAM and DRAM.
