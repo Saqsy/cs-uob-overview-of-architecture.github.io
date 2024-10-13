@@ -47,7 +47,7 @@ Current versions of the boards also feature four push-buttons, which provide log
 
 ### Access to NAND boards
 
-NAND boards will be made available during the week 1-4 labs, please do not take these home as other units need them throughout the week! NAND boards are now available to borrow from the hackspace, if you'd like to get some practice using a NAND board outside of labs. To do so, please follow [this booking link](https://outlook.office365.com/owa/calendar/bk_NANDBoards@bristol.ac.uk/bookings/) to arrange a time to collect one!
+NAND boards will be made available during the week 1-4 labs, please do not take these home as other units need them throughout the week! There may be a small supply available to borrow if you'd like to get some practice using a NAND board outside of labs - we will add more information as we get it.
  
 ### Building with NAND boards
 
@@ -55,9 +55,9 @@ Although the NAND boards are a simple concept, in practice they can quickly beco
 
 We very strongly recommended that you design and test your circuit using Logisim before building it physically. Once you have a working design in Logisim in which every gate is a NAND gate, decide where each NAND gate will go on the NAND board - to help keep track of this you may want to add annotations in Logisim or to print your design physically. Once you've done this, start connecting up wires systematically, marking down when each part of your design is completed. That way, you are less likely to miss a wire or get confused.
 
-<!--## The Nand2Tetris Software Suite
+## Nand2Tetris
 
-The Nand2Tetris software suite is a set of tools for simulating various parts of the Hack architecture, which you will use for labs throughout the second half of the unit and as well as your second exam. This unit isn't the same as the Nand2Tetris course and doesn't use the entire software suite. We have also forked our own copy of the CPU simulator which adds a few features and fixes a few bugs - full credit for this goes to Ali Jardine, a past student who worked on this for his summer project. We have bundled the components we use ***FILL IN LINK***. As with Logisim, they need a working Java installation. To run them, just extract the zip file and run the relevant .bat file (for Windows) or .sh file (for Mac or Linux).
+The Nand2Tetris software suite is a set of tools for simulating various parts of the Hack architecture, which you will use for labs throughout the second half of the unit and as well as your second exam. This unit isn't the same as the Nand2Tetris course and doesn't use the entire software suite. We have also forked our own copy of the CPU simulator which adds a few features and fixes a few bugs - full credit for this goes to Ali Jardine, a past student who worked on this for his summer project. We have bundled the components we use [here](nand2tetris-bolt.zip). As with Logisim, they need a working Java installation. To run them, just extract the zip file and run the relevant .bat file (for Windows) or .sh file (for Mac or Linux). 
 
 We'll be showing you how to use this software in lecture videos as they come up. There's also extensive documentation available on the [official website](https://www.nand2tetris.org/software) for all these tools except the Jack compiler, which is a simple command line utility:
 
@@ -65,4 +65,15 @@ We'll be showing you how to use this software in lecture videos as they come up.
 * [Assembler documentation](https://www.nand2tetris.org/_files/ugd/44046b_759f4f811ad14e12ac45bc60dd679fa3.pdf)
 * [VM emulator documentation](https://www.nand2tetris.org/_files/ugd/44046b_b74d071ee4b74279b211acede232ced9.pdf)
 
-Like the original, our fork is open source and licensed under the Creative Commons [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license. The source code is available on GitHub ***FILL IN LINK***. The new features it introduces are ***TODO BRIEF DESCRIPTION***-->
+If you're having a lot of trouble getting the software working on your own computer, there is also an official [online version](https://nand2tetris.github.io/web-ide/asm) of the whole suite available here. For now, we recommend using the offline bundle above instead, for several reasons. First, as of October 2024 the online version hadn't quite reached feature parity with the offline version with several useful features (like breakpoints) missing. Second, the CPU simulator lacks the extra features introduced by our fork. And third (and maybe most importantly), the interface is quite different, and the offline version is what you'll be using in the exam!
+
+Like the original, our fork of the CPU simulator is open source and licensed under the Creative Commons [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license. The source code is available on GitHub [here](https://github.com/SecretsAndLies/nand2tetris-bolt/). The biggest new features it introduces (which are therefore not covered in the documentation above) are:
+
+* A "symbolic mode" alongside hex, binary, octal and assembly mode. This mode leaves variable names and inline comments from the .asm input file intact and is extremely useful for debugging. Labels appear at the end of the next line in brackets, so the line numbers still match up with ROM addresses. If the text in a cell of ROM extends past the edge of the available space, you can hover over it for a tooltip.
+* An "undo step" button to the left of the reset button, also very useful for debugging. It will allow you to step backwards up to five steps. Note that for performance reasons, it won't work if animation speed is set to "No animation".
+* You can right-click to quickly set or unset a breakpoint in the code (which will highlight the ROM cell red). If the simulator is running through the code automatically, it will stop on reaching a breakpoint - this saves a lot of clicking on the "advance step" button while debugging. As in the old version, you can still set breakpoints manually using the red flag icon.
+* If you fix a bug and save your assembly code, a dialog box will pop up in the emulator asking if you would like to reload your code from the file.
+* The keyboard input is now case-sensitive (the old one wasn't!) and displays the key's numerical code as stored in RAM[KBD] next to the keypress.
+* Assorted bugfixes and non-student-facing improvements like better test scripting capacity for .asm files, unit tests for the simulator itself, and Maven integration for an easier build process.
+
+We also have an [online server](https://codestuff.online/) where you can enter solutions to exercises - some on the weekly assignment sheets, some as revision exercises - and have them automatically verified. You can also compete with other students on how efficient your solutions are! Each solution is judged Zachtronics-style on three metrics - number of cycles used (where applicable), total ROM used, and total RAM used. Everything is anonymous and there are no prizes beyond the satisfaction of a job well done... but there *is* the prize of the satisfaction of a job well done! Optimising your assembly code for time or space efficiency won't be a skill we test in exams directly, but practising it will make you a faster and more proficient assembly coder, and that is something we test.

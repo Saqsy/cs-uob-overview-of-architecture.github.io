@@ -50,3 +50,11 @@ This course will use three main textbooks. None of them are required reading, bu
 **The Elements of Computing Systems:** Chapter 3 covers the behaviour of the Hack program counter in particular.
 
 **Digital Design and Computer Architecture:** Chapter 1.6 covers digital abstraction and chapter 1.7 covers transistors, but both in far more detail than is required for this unit! Chapters 3.4.1 to 3.4.3 cover finite state machines, chapter 5.4.1 covers counters, and chapter 5.5 covers memory arrays include SRAM and DRAM.
+
+## Week 5 reading
+
+**The Elements of Computing Systems:** Chapter 4 covers everything we've covered this week. You can skip 4.2.3 for now, which covers the Hack machine language (which we'll be discussing in week 7), but the rest of it is all worth reading if you're having trouble.
+
+**Digital Design and Computer Architecture:** This week, this book is strictly worse than Elements of Computing Systems - it's based around a different assembly language, it spends very little time explaining how to translate ideas into assembly, and it binds the assembly to the electronics far more tightly than this unit does (for now).
+
+**Just for fun:** In video 5-4 we talked briefly about how in the early 80s, programmers would sometimes use screen RAM as temporary storage. [Here](https://www.youtube.com/watch?v=5HSjJU562e8)'s a neat video from Retro Game Mechanics Explained (an outstanding channel) going in the other direction - an Atari 2600 game called Yar's revenge writes its own code to the screen RAM to produce a rapidly-changing graphical barrier, and RGME tries to use that to reverse engineer the game's code.
