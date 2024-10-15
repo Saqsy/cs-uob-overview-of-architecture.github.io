@@ -14,6 +14,22 @@ Table of contents
 
 # Announcements Page
 
+## Drop-ins
+
+Just a quick reminder that drop-in sessions won't be running over reading week (week 6) - instead John and I will be running a 2hour revision Q&A session that is in your timetable for 14:00 Monday 21st October!
+
+Also highlighting that TA drop-ins will not be running on certain weeks due to their availability e.g. Ali and Nathan are not available this week! The currently scheduled drop-ins are:
+
+- Mondays 11-12pm, **weeks 2-5 & 7-12** in MVB 4.01 with Kira (weeks 2-5) or John (weeks 7-12)
+- Tuesdays 3-4pm, **weeks 3-4 & 7-12** in FRY G.16 with Ali
+- Wednesdays 4-5pm, **weeks 3-4 & 8-12** in FRY G.16 with Nathan
+- Fridays 12-1pm, **weeks 1-5, 7-9 & 12** in MVB 4.01 with Alex
+
+It's worth checking the [github page](../#organisation) before attend a session, as we'll be updating the list here if there are any further changes to drop-in sessions!
+
+All the best,
+Kira and John
+
 ## Week 5 content and important test announcements
 
 Week 5 materials are now live on the unit's GitHub page! As we move into the second part of the course, some important announcements **concerning the test next week worth 40% of your unit mark**, so **please read them!**
