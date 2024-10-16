@@ -57,14 +57,12 @@ During the test, an invigilator may briefly interrupt you and ask to see all the
 
 Results and feedback will be made available no later than 2-3 weeks after the test, accompanied by a Blackboard announcement. 
 
-<!--Two practice papers are available below; the actual test will be similar in form and content. Note that these papers don't have any questions on transistors, but transistors *are* examinable.
+Two practice papers are available below; the actual test will be similar in form and content. Note that these papers don't have any questions on transistors, but transistors *are* examinable.
 
 * [Practice paper A: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184643_1&mode=cpview) (model answers available on submission, just click OK)
-* [Practice paper A: Practical part](../exam_files/Paper_A_practical.pdf) ([skeleton file](../exam_files/Paper_A_practical_skeleton.circ), [model answers](../exam_files/Paper_A_practical_answers.circ))
+* [Practice paper A: Practical part](../exam_files/Paper_1A_practical.pdf) ([skeleton file](../exam_files/Paper_1A_practical_skeleton.circ), [model answers](../exam_files/Paper_1A_practical_answers.circ))
 * [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184673_1&mode=cpview) (model answers available on submission, just click OK)
-* [Practice paper B: Practical part](../exam_files/Paper_1B_practical.pdf) ([skeleton](../exam_files/Paper_1B_practical_skeleton.circ), model answers TBD)
-
-**DO NOT TAKE THESE LIVE YET**, formats need harmonising and paper B may need revising -->
+* [Practice paper B: Practical part](../exam_files/Paper_1B_practical.pdf) ([skeleton file](../exam_files/Paper_1B_practical_skeleton.circ), [model answers](../exam_files/Paper_1B_practical_answers.circ))
 
 ## In-class test 1 examinability
 
@@ -72,20 +70,45 @@ By default, all material covered in lecture slides and in assignments is examina
 
 Over the course of the weekly assignments, you're expected to have become familiar with Logisim components for circuits we've covered explicitly (e.g. counters, registers, flip-flops etc.) in the lecture slides. You're not expected to have become familiar with Logisim components for circuits we haven't covered (e.g. shift registers, comparators etc.) It's also worth remembering that in the exam, you can always hover over a pin of a Logisim component to get a quick reminder of what it does, so you don't have to memorise anything.
 
-Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Closer to the test date, we will add a detailed list to this section for easy reference.
+The following material is **non-examinable**, despite appearing in lecture slides or assignments:
 
-<!--## In-class test 2 details
+**Week 1:**
+
+* Venn diagrams from week 1 video 1 ("Boolean algebra") are non-examinable.
+* The detailed circuit diagrams of NAND boards from week 1 video 4 ("NAND") are non-examinable. In particular, you are not expected to know anything about resistors.
+* You will not be asked to do anything with NAND boards physically (e.g. building circuits). You may still be asked questions about NAND boards in the theory component, e.g. being given a picture of a NAND board and being asked to match pins to functions.
+* The method from the week 1 assignment of implementing an XOR gate with four NAND gates is non-examinable.
+
+**Week 2:**
+
+* In week 2 video 1 ("Representing numbers"), on slide 8, the formula for the value of a base-B number is given in sigma-notation. This notation is non-examinable. The formula itself (that a D-digit base-B number with digits xD-1, xD-2, ..., x1, x0 from left to right has value xD-1*BD-1 + xD-2*BD-2 + ... + x1*B + x0*1) is still examinable.
+* The IEEE-754 standard alluded to in week 2 video 3 ("Binary subtraction") is non-examinable. Expressing a binary number in exponent-mantissa form in general (e.g. expressing 2.75 as a mantissa of 0b1011 and an 8-bit exponent of -2 = 0b11111110) is still examinable, as is the general concept of IEEE-754 (e.g. you should understand that it defined how values like NaN and infinity should be stored).
+* Your specific implementation of the Hack ALU from the week 2 assignment is non-examinable. (Behaviour of the Hack ALU is examinable, though.)
+
+**Week 3:**
+
+* The failed register design from week 3 video 3 ("From flip-flops to registers") is non-examinable, although you should understand why it fails and be able to identify similar issues in other circuits.
+* You are expected to be able to calculate logarithms with access to a calculator using the formula from week 3 video 3 ("From registers to RAM"), and to be able to apply their definition to solve problems in circuit design (e.g. "if RAM consists of 32KB of memory divided into 16-bit words, how many bits are needed to store an address?"). Every other aspect of logarithms is non-examinable and you are not expected to have seen them before starting the degree. In particular, you do not need to know how to prove the formula log2(x) = logb(x) / logb(2) given in lectures, or how to calculate logarithms without a calculator supporting log or ln, or the definition of e, or properties like log(xy) = log(x) + log(y).
+* Ring oscillators (the set of 5 NOT gates) from the week 3 assignment are non-examinable.
+* T flip-flops and JK flip-flops from the week 3 assignment are non-examinable, although you may use them as components in Logisim if you wish to do so (and the question does not restrict which components you use).
+
+**Week 4:**
+
+* BJT transistors from week 4 video 2 ("Transistors") are non-examinable.
+* The finite state machine used by Celeste linked in week 4 video 1 ("Building with flip-flops and registers") is non-examinable, and you are not expected to have looked at it.
+* The rise/fall detector and traffic lights from the week 4 assignment are non-examinable, although the general skill of designing complex circuits is examinable.
+
+## In-class test 2 details
 
 In-class test 2 will consist of two parts. The first part, the theory part, will be an auto-marked Blackboard test in exactly the same format as the Blackboard quizzes from live sessions and the theory part of test 1. It will contain roughly 11 questions and will be marked out of 50. Partial credit will be available for multi-part questions. The second part, the practical part, will ask you to submit a .zip file with one .asm file for each question. It will contain 4 questions and will also be marked out of 50. You will get full marks for any assembly program which behaves as specified in the question, with partial marks available for programs with minor bugs - in particular, if your program works then you will not be marked down based on neatness, code hygiene, efficiency, or your approach to the problem unless this is specifically noted in the question. However, if your code doesn't work, you may get partial credit based on your thought process. For this reason, we recommend writing comments as you go. Your final mark for test 2 will be the sum of your marks for the theory and practical part.
 
 You will be allowed use of the following software **only**:
 
-* The Hack CPU emulator.
-* The Hack assembler.
+* Our fork of the Hack CPU emulator.
 * A web browser (which may only be used to fill out the theory part of the test and submit the practical part of the test).
 * The pre-installed text editor "Text editor" to write your assembly code. (You are not allowed to use VS Code, as there are Hack plugins available for it.)
 * The pre-installed calculator apps (Calculator and KCalc) in any mode.
-* A terminal only to start the CPU emulator and assembler (since they run as shell scripts).
+<!--* A terminal only to start the CPU emulator and assembler (since they run as shell scripts).-->
 
 You may not bring a physical calculator into the test, as in the absence of an approved model whitelist it's hard to tell from a distance which calculators are programmable and which aren't. You will be given rough paper and a physical copy of [this reference sheet](../exam_files/reference2.pdf) and the test paper (both the practical part and the theory part). Do not bring your own rough paper or reference sheet into the exam room. Use of outside materials will be considered academic malpractice and dealt with harshly. The reference sheet contains:
 
@@ -94,19 +117,19 @@ You may not bring a physical calculator into the test, as in the absence of an a
 * A reference for the arithmetic and logical operations supported by Hack VM.
 * A reference for the standard memory map from Hack VM to Hack assembly.
 
-Results and feedback will be made available in January by email at the same time as your results from Programming in C and Overview of Software Tools. 
+Results and feedback will be made available in January by email at the same time as your results from Programming in C and Overview of Software Tools. Two practice papers will be made available here closer to the time.
 
-Two practice papers are available below; the actual test will be similar in form and content.
+<!--Two practice papers are available below; the actual test will be similar in form and content.
 
 * [Practice paper A: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184855_1&mode=cpview) (model answers available on submission)
 * [Practice paper A: Practical part](../exam_files/Paper_2A_practical.pdf) ([model answers](../exam_files/Paper_2A_practical_answers.zip))
 * [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184866_1&mode=cpview)
 * [Practice paper B: Practical part](../exam_files/Paper_2B_practical.pdf) ([model answers](../exam_files/Paper_2B_practical_answers.zip))
 
-**DO NOT TAKE THESE LIVE YET**, formats need harmonising and paper B may need revising
+DO NOT UNCOMMENT YET - Practice paper B theory still needs model answers.-->
 
-## Test 2 examinability
+## In-class test 2 examinability
 
 By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.) 
 
-Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Closer to the test date, we will add a detailed list to this section for easy reference.-->
+Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Closer to the test date, we will add a detailed list to this section for easy reference.
