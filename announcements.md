@@ -16,7 +16,7 @@ Table of contents
 
 ## Mock test
 
-As a reminder, tomorrow we are running a **mock test** for the first 20-30 minutes or so of labs, so from noon to 12:20-30. This is going to be a quick runthrough of what things will be like in the actual test, with a little more associated chaos - for example, for the actual test we'll have spent an hour beforehand setting up the room, we'll have IT on-hand for the inevitable technical issues, and our invigilators will have finished their training! There are no marks associated with this, and attendance is optional but strongly encouraged. Afterwards, I'll run a brief Q&A about exam rules and procedures as people work on the lab itself.
+As a reminder, tomorrow we are running a **mock test** for the first 20-30 minutes or so of labs, so from noon to 12:20-30. This is going to be a quick runthrough of what things will be like in the actual test, with a little more associated chaos - for example, for the actual test we'll have spent an hour beforehand setting up the room, we'll have IT on-hand for the inevitable technical issues, and our invigilators will have finished their training! There are no marks associated with this, and attendance is optional but strongly encouraged. Afterwards, I'll run a brief Q&A about exam rules and procedures as people work on the lab itself - remember we'll also be running a much longer Q&A on Monday!
 
 Best wishes,
 
