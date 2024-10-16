@@ -81,7 +81,7 @@ The following material is **non-examinable**, despite appearing in lecture slide
 
 **Week 2:**
 
-* In week 2 video 1 ("Representing numbers"), on slide 8, the formula for the value of a base-B number is given in sigma-notation. This notation is non-examinable. The formula itself (that a D-digit base-B number with digits xD-1, xD-2, ..., x1, x0 from left to right has value xD-1*BD-1 + xD-2*BD-2 + ... + x1*B + x0*1) is still examinable.
+* In week 2 video 1 ("Representing numbers"), on slide 8, the formula for the value of a base-B number is given in sigma-notation. This notation is non-examinable. The formula itself (that a D-digit base-B number with digits xD-1, xD-2, ..., x1, x0 from left to right has value xD-1\*BD-1 + xD-2\*BD-2 + ... + x1\*B + x0\*1) is still examinable.
 * The IEEE-754 standard alluded to in week 2 video 3 ("Binary subtraction") is non-examinable. Expressing a binary number in exponent-mantissa form in general (e.g. expressing 2.75 as a mantissa of 0b1011 and an 8-bit exponent of -2 = 0b11111110) is still examinable, as is the general concept of IEEE-754 (e.g. you should understand that it defined how values like NaN and infinity should be stored).
 * Your specific implementation of the Hack ALU from the week 2 assignment is non-examinable. (Behaviour of the Hack ALU is examinable, though.)
 
