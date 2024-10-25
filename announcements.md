@@ -14,6 +14,34 @@ Table of contents
 
 # Announcements Page
 
+## Results date, catch-up plan for week 5
+
+I hope the test went well! We're currently aiming to get marks back to you for Monday November 4th, a week and a half from now, and then use the live session the next day to go through it. If circumstances change and it looks like that's not going to be possible, we'll let you know in advance. (If you saw a mark in the "Total" column in Blackboard today or yesterday, this was not your actual mark and will likely be substantially lower than your actual mark - it includes no marks from anyone's practical sections, misses out a lot of marks for the theory sections, and should never have been made available to students.) 
+
+Meanwhile, as we enter week 7, I want to stress once again that the contents of week 5 are **extremely important** and you will not be able to follow the unit going forward without it. Week 5 teaches Hack assembly. Week 7 will be about the map from Hack assembly to machine code and silicon; week 8 will be about building an assembler to turn Hack assembly into Hack machine code automatically; weeks 9 and 10 will be about compiling code from an intermediate "stack machine" into Hack assembly; and week 11 will be about compiling code from a high-level language into that stack machine. You will not be able to follow any of this if you don't have an intuitive grasp on Hack assembly in general, and how the A and M registers work in particular.
+
+If, like many people, you have been deprioritising/completely ignoring new architecture material for the last couple of weeks to focus on the test and the C coursework, there is one piece of good news: while the week 7 material will come up in test 2, and while it's important conceptually, most of it **won't** come up in weeks 8-11. If you're in this situation, here is your survival plan and priority list moving forward:
+
+* Watch week 5 videos 1-3 for the basics of Hack assembly. (**Don't** just read the slides even if you're behind and short on time, the videos are far more useful and have things like live coding segments.)
+
+* Do the week 5 labsheet down to the end of section 4. Use the week 7 labs for this if you need to. Don't just look at the solutions, or you will lose most of the value of the exercises.
+
+* Watch week 5 video 4 for details on how Hack assembly handles input and output.
+
+* Watch week 7 video 1 for the map from Hack assembly to machine code, without which nothing in week 8 will make sense. 
+
+* If week 8 has started, at this point (and not before) you should switch focus to week 8's materials as you now have enough background to understand everything in the unit going forward.
+
+* If at all possible, finish section 5 of the week 5 sheet ("a prettier screen fill") to gain familiarity with Hack's input/output and a more substantial piece of Hack assembly coding. This will be very useful for test 2, and again is higher priority than the week 7 lab.
+
+* Watch week 7 video 2 and look at the week 7 assignment solutions to see how Hack machine code can be executed in silicon.
+
+* Watch week 7 videos 3-4 to get a sense for how Hack compares with other architectures out there.
+
+Best wishes,
+
+John and Kira
+
 ## Test 1 practice papers now available
 
 Two practice papers for test 1 are now available from the unit page [here](../exam/#in-class-test-1-details), along with a detailed list of non-examinable topics [here](../exam/#in-class-test-1-examinability), and preliminary information about test 2 in December [here](../exam/#in-class-test-2-details).
