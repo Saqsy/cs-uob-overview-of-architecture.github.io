@@ -14,6 +14,16 @@ Table of contents
 
 # Announcements Page
 
+## Plans for Monday/Tuesday
+
+At this point, we've marked your test scripts and are just transferring your marks to Blackboard. We'll release these to you once everyone's marks are up, accompanied by an email announcement - this will be on Monday, but may not be until late Monday evening. You'll be able to see your mark breakdown by question, along with the rough mark distribution for the class. On Tuesday we'll spend the entire workshop going through the test, so please hold any questions about it until then. This also means we won't have a live session for week 7's material, but we do still have a quiz, which is available [here](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9253059_1&mode=cpview) or via the unit page. 
+
+The rest of next week's material is also available now, except for the weekly assignment which we're still revising a bit from last year to try and reduce the volume of work involved. (The assignment will be to write a Hack assembler in C - we're significantly reducing the amount of code you have to fill in given that string handling in C is not a pleasant experience...)
+
+Best wishes,
+
+John and Kira
+
 ## Results date, catch-up plan for week 5
 
 We hope the test went well for everyone! We're currently aiming to get marks back to you for Monday November 4th, a week and a half from now, and then use the live session the next day to go through it. If circumstances change and it looks like that's not going to be possible, we'll let you know in advance. (If you saw a mark in the "Total" column in Blackboard today or yesterday, this was not your actual mark and will likely be substantially lower than your actual mark - it includes no marks from anyone's practical sections, misses out a lot of marks for the theory sections, and should never have been made available to students.) 
