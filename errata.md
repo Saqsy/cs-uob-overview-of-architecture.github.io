@@ -24,3 +24,7 @@ Slide 4 makes the claim that in modern CPUs, usually CISC is better than RISC fo
 ## Week 7 video 4
 
 Slide 3 says we can set the clock speed to the propagation delay of the fastest stage; this should read the slowest stage.
+
+## Week 8 video 2
+
+In the aside at the end of the video about using stacks of symbol tables to track scopes, the line "printf("%d", i)" in the C code causes a compile error for the wrong reason - a missing semicolon rather than a variable being out of scope. It should read "printf("%d", temp);".
