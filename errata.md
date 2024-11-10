@@ -28,3 +28,7 @@ Slide 3 says we can set the clock speed to the propagation delay of the fastest 
 ## Week 8 video 2
 
 In the aside at the end of the video about using stacks of symbol tables to track scopes, the line "printf("%d", i)" in the C code causes a compile error for the wrong reason - a missing semicolon rather than a variable being out of scope. It should read "printf("%d", temp);".
+
+## Week 9 video 4
+
+Slide 8 says that "temp is allocated a fixed segment of length 8 and base address 5 = TEMP" - this is all true except that TEMP is not a valid keyword in Hack assembly.
