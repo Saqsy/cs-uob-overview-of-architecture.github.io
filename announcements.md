@@ -14,6 +14,16 @@ Table of contents
 
 # Announcements Page
 
+## Bugfixes for week 9 lab
+
+Hi all,
+
+It turns out there were two separate issues affecting the test scripts for the assignment this week - sorry! **Everyone** should re-download the test data from [here](https://cs-uob-overview-of-architecture.github.io/week9/test_data.zip) (or the link on the unit page), and **all Windows users** should re-download the CPU emulator from [here](https://cs-uob-overview-of-architecture.github.io/nand2tetris.zip) (or the link on the unit page). The first issue was a format change to the test scripts from last year that I hadn't realised, and the second issue was a bug causing an infinite loop on the Windows version. Thanks to Ali for a speedy fix!
+
+Best wishes,
+
+John and Kira
+
 ## Plans for Monday/Tuesday
 
 At this point, we've marked your test scripts and are just transferring your marks to Blackboard. We'll release these to you once everyone's marks are up, accompanied by an email announcement - this will be on Monday, but may not be until late Monday evening. You'll be able to see your mark breakdown by question, along with the rough mark distribution for the class. On Tuesday we'll spend the entire workshop going through the test, so please hold any questions about it until then. This also means we won't have a live session for week 7's material, but we do still have a quiz, which is available [here](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9253059_1&mode=cpview) or via the unit page. 
