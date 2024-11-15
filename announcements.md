@@ -14,7 +14,7 @@ Table of contents
 
 # Announcements Page
 
-## Test 2 practice papers available
+## Test 2 practice papers now available
 
 Hi all,
 
