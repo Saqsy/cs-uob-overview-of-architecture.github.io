@@ -14,6 +14,16 @@ Table of contents
 
 # Announcements Page
 
+## Test 2 practice papers available
+
+Hi all,
+
+We've now finished and made available [two practice papers](https://cs-uob-overview-of-architecture.github.io/exam/#in-class-test-2-details) for test 2. Both of them are the same format as test 2, and the questions will be of similar difficulty. There is also a [detailed list](https://cs-uob-overview-of-architecture.github.io/exam/#in-class-test-2-examinability) of what subjects are and aren't examinable. We've also made next week's materials available in the usual place, although we're still tweaking the assignment a bit from last year so that will be up on Monday.
+
+Best wishes,
+
+John and Kira
+
 ## Bugfixes for week 9 lab
 
 Hi all,

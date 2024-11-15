@@ -108,7 +108,7 @@ You will be allowed use of the following software **only**:
 * A web browser (which may only be used to fill out the theory part of the test and submit the practical part of the test).
 * The pre-installed text editor "Text editor" to write your assembly code. (You are not allowed to use VS Code, as there are Hack plugins available for it.)
 * The pre-installed calculator apps (Calculator and KCalc) in any mode.
-<!--* A terminal only to start the CPU emulator and assembler (since they run as shell scripts).-->
+* A terminal only to start the CPU emulator and assembler (since they run as shell scripts).
 
 You may not bring a physical calculator into the test, as in the absence of an approved model whitelist it's hard to tell from a distance which calculators are programmable and which aren't. You will be given rough paper and a physical copy of [this reference sheet](../exam_files/reference2.pdf) and the test paper (both the practical part and the theory part). Do not bring your own rough paper or reference sheet into the exam room. Use of outside materials will be considered academic malpractice and dealt with harshly. The reference sheet contains:
 
@@ -119,17 +119,48 @@ You may not bring a physical calculator into the test, as in the absence of an a
 
 Results and feedback will be made available in January by email at the same time as your results from Programming in C and Overview of Software Tools. Two practice papers will be made available here closer to the time.
 
-<!--Two practice papers are available below; the actual test will be similar in form and content.
+Two practice papers are available below; the actual test will be similar in form and content.
 
 * [Practice paper A: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184855_1&mode=cpview) (model answers available on submission)
 * [Practice paper A: Practical part](../exam_files/Paper_2A_practical.pdf) ([model answers](../exam_files/Paper_2A_practical_answers.zip))
-* [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184866_1&mode=cpview)
+* [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184866_1&mode=cpview) (model answers available on submission)
 * [Practice paper B: Practical part](../exam_files/Paper_2B_practical.pdf) ([model answers](../exam_files/Paper_2B_practical_answers.zip))
-
-DO NOT UNCOMMENT YET - Practice paper B theory still needs model answers.-->
 
 ## In-class test 2 examinability
 
 By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.) 
 
-Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Closer to the test date, we will add a detailed list to this section for easy reference.
+Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Here is a full list of what is **<u>not</u>** examinable:
+
+**General:**
+
+* You will not be examined on your ability to program in C or your knowledge of C syntax. However, you are expected to understand the basic concepts of programming taught in that unit (e.g. loops, functions, pointers etc.) insofar as this unit relies on it, and questions may use examples from C for illustrative purposes. For example, a question might refer to “an abstract data type (such as a struct in C or a class in Jack)”.
+* Specific details of C’s behaviour not covered in Programming in C (like the difference between char *myArray = “Hello, world!”; and char myArray[] = “Hello, world!”; covered in week 11 video 3) are also non-examinable and are provided purely for illustrative purposes.
+* You will only be examined on weeks 1-4 insofar as weeks 5 and 7-11 rely on this content. For example, you will not be asked to convert a hexadecimal number into decimal as a question in its own right, but you may well be given a memory address in hexadecimal format and need to convert that address into decimal format as part of answering a larger question in the practical part of the exam.
+* You will not be asked to design any circuits or to use Logisim in the practical part of the exam.
+* The specific solutions for weekly assignments from weeks 5, 7, 8 and 11 are non-examinable except insofar as they overlap with lectures. For example, you will be expected to know how to write a program like checkerfill.asm from the week 5 assignment, but you will not be expected to have memorised checkerfill.asm and you won’t be asked to reproduce it.
+* The C code for weekly assignments from weeks 9 and 10 is non-examinable, but you will be expected to know how to translate Hack VM code into Hack assembly code and may be asked to do so (as in the practice papers).
+* Any specific details of non-Hack assembly languages are non-examinable. For example, you will be expected to understand the difference between direct and indirect addressing from week 7 video 3, but you will not be expected to remember the ARM syntax for either. General properties of non-Hack assembly languages (such as that ARM is used in most modern mobile devices) remain examinable.
+
+**Week 5:**
+
+* The definition of a Turing machine in video 3 is non-examinable. The other contents of the slide (the Church-Turing thesis, Turing-completeness, and the Halting Problem) are examinable, though only at the level covered by the slide.
+
+**Week 7:**
+
+* Exact details of specific CPUs mentioned in videos 3-4, such as the number of cycles required per instruction or the time in nanoseconds to retrieve data from memory. (However, you are expected to remember the key qualitative details that are common across all CPUs, such as L3 cache access being slower than L1 cache access.)
+
+**Week 8:**
+
+* The Hack assembly grammar is examinable, but you don’t need to memorise the definition – if questions are asked about it, you will be given the relevant excerpts of the EBNF. The same is true for the grammars covered in video 3.
+* The last slide of video 2 (on using multiple symbol tables to handle scopes in a high-level language) is only examinable insofar as it overlaps with the week 11 material.
+
+**Week 9:**
+
+* The Hack VM grammar is examinable, but you don’t need to memorise the definition – if questions are asked about it, you will be given the relevant excerpts of the EBNF.
+
+**Week 11:**
+
+* You are not expected to know how to program in Jack. You will not be asked about the details of Jack as a language, and you will not be asked to read, write, or debug Jack code. However, you are expected to understand both the general principles of how to compile a high-level language into Hack VM to the full extent that this is explored in Jack. For example, you are expected to know what a method is, and you might be asked about the process of compiling a method to Hack VM, but you will not be asked to read, write, or debug a method declaration in Jack.
+* Likewise, the Jack grammar is examinable, but you don’t need to memorise the definition – if questions are asked about it, you will be given the relevant excerpts of the EBNF.
+* Likewise, with the exceptions of Memory.alloc, Memory.deAlloc, and Sys.init (all of which you are expected to know), any details you need of the Hack “operating system” as covered in Nisan and Schocken Appendix 6 will be provided to you.

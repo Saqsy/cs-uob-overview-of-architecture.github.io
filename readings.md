@@ -78,3 +78,13 @@ This course will use three main textbooks. None of them are required reading, bu
 **The Elements of Computing Systems:** This week's material closely follows chapter 7 (which covers stack operations and memory in the Hack VM) and chapter 8.2 (which covers labels and gotos). Beware that in their examples of VM code, they often use pseudocode instead of valid code, e.g. "push x" instead of "push local 0" - they do say what they're doing if you read the text, but if you're just skimming then this can catch you out.
 
 **Introduction to Compilers and Language Design:** Chapter 8 talks about intermediate representations in much more detail than is needed for the unit, covering stack machine IRs (like Hack VM or the JVM) in 8.7. It briefly discusses GIMPLE, LLVM, and the JVM in 8.8.
+
+## Week 10 reading
+
+**The Elements of Computing Systems:** Videos 1-3 of this week's material closely follow chapter 8.3 and onwards, which covers function calls in general and function calls in Hack VM in particular. Chapter 12.1.3 discusses memory allocation on the heap from video 4 - specifically the first two algorithms we discuss.
+
+**Digital Design and Computer Architecture:** Chapter 6.4.6 (procedure calls) also discusses function calls in general from the point of view of MIPS. The exact implementation is a little different from Hack VM, but the ideas are all the same (representing the stack in assembly rather than via an intermediate representation), and it could be a useful second perspective in addition to Nisan and Schocken.
+
+**Introduction to Compilers and Language Design:** Chapter 9 discusses memory management on the heap and stack from first principles. Considering a lot of the rest of the book, this is handled surprisingly gently and non-mathematically, and is well worth taking a look at as a supplement to the week's videos.
+
+[This](https://gee.cs.oswego.edu/dl/html/malloc.html) is an article on how malloc and free were implemented in C as of the mid-90s. While current versions are more complicated, it's an interesting point of comparison to video 4.
