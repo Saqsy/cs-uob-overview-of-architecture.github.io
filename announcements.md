@@ -14,6 +14,18 @@ Table of contents
 
 # Announcements Page
 
+## Revised quiz now available
+
+Hi all,
+
+Apologies again for the quiz yesterday containing questions on both week 9 and week 10 - I've got a new version [up now](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9266887_1&mode=cpview) with three new questions on week 9's material, and I'll relaunch the week 10 questions next week (again with some extras added).
+
+If you're interested, here's exactly how that happened. Last year, we put our test 1 results out at the same time as this year (in what would have been the workshop on week 7's material), but rather than skipping that workshop we delayed it by a week. So we had the workshop on week 7's material in week 9, the workshop on week 8's material in week 10, and then we had a joint workshop on both week 9 and week 10's material in week 11 to "catch up". With hindsight this didn't work very well and so this year I decided to skip the week 7 workshop altogether, allowing separate workshops for weeks 9 and 10 in weeks 10 and 11 respectively. But then as we got to week 10 this year, I forgot we'd combined them last year and just mindlessly used the corresponding quiz from last year, so it still had questions from both weeks...
+
+Best wishes,
+
+John and Kira
+
 ## Test 2 practice papers now available
 
 Hi all,
