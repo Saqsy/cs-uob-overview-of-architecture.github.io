@@ -88,3 +88,14 @@ This course will use three main textbooks. None of them are required reading, bu
 **Introduction to Compilers and Language Design:** Chapter 9 discusses memory management on the heap and stack from first principles. Considering a lot of the rest of the book, this is handled surprisingly gently and non-mathematically, and is well worth taking a look at as a supplement to the week's videos.
 
 [This](https://gee.cs.oswego.edu/dl/html/malloc.html) is an article on how malloc and free were implemented in C as of the mid-90s. While current versions are more complicated, it's an interesting point of comparison to video 4.
+
+## Week 11 reading
+
+**The Elements of Computing Systems:** This should be your go-to book for the week!
+
+* Chapter 9 is an exhaustive reference on all things Jack from the point of view of a coder.
+* Chapter 10 is a detailed guide to lexing and parsing Jack. Most of this material will be familiar from past weeks of the unit, but it's still a good place to look for Jack-specific things. Note that the grammar we define in video 2 is a combination of the one in Figure 10.5 (which has a bunch of extra non-terminals like <varName> to make it easier to understand) and the one they recommend creating the parse tree for in 10.3 (which removes those non-terminals to make it easier to parse).
+* Chapter 11 is a detailed guide to compiling Jack post-parsing.
+* Appendix 5 contains the map between char and int variables (which you don't actually need for compiling), and Appendix 6 contains the list of standard library/"operating system" functions.
+
+**Introduction to Compilers and Language Design:** The parser we use is a recursive descent parser - these are discussed in chapter 4.3.4 from the point of view of LL(1) languages, and the idea for an LL(2) language is essentially the same (but with the extra lookahead token). If you're interested in type systems and type checking, chapter 7 gives a good introduction while avoiding the more hardcore type theory. Chapter 11 discusses generating code from the parse tree and symbol tables, and chapter 12 discusses optimisation.
