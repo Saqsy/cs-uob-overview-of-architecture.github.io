@@ -14,6 +14,32 @@ Table of contents
 
 # Announcements Page
 
+## Week 12 and exam info
+
+Hi all,
+
+Here's the plan for weeks 12 and 13 leading up to the exam.
+
+* Monday week 12: No new material released - this week is for revision. Office hours go ahead as normal.
+* Tuesday week 12: Workshop goes ahead as normal. **The first part will be a Q&A focused on the exam process and preparation.** We've made the quiz available early if you want to work on it in advance and use the rest of Tuesday to look at a practice paper.
+* Wednesday week 12: Q&A goes ahead as normal. **This Q&A will be focused on the actual material.**
+* Thursday week 12: No labs, since there's no weekly assignment. (These should now have been removed from your timetable.)
+* Friday week 12: Alex's drop-in session goes ahead as normal.
+* Week 13: No activities except the test, which will happen on **Thursday December 12th at 1pm** in **MVB 2.11** (unless you have extra time in which case you'll hear about your venue from the school office).
+
+Support will be available from us and the TAs on the unit team in the lead-up to the test. The details of how the test will work are on the unit page [here](https://cs-uob-overview-of-architecture.github.io/exam/#in-class-test-2-details) - the following are particularly important:
+
+* You **are** allowed to use the pre-installed calculator apps in any mode, and in particular you can use them to convert hexadecimal to decimal. You are still **not** allowed to use physical calculators (since it's a pain to tell whether they're programmable or not).
+* You **are** allowed to use the updated version of the CPU emulator and assembler, available for download [here](https://cs-uob-overview-of-architecture.github.io/software#nand2tetris). The practical half of the exam will involve writing Hack assembly code, and you are strongly encouraged to use the software to check your answers work!
+* You are **not** allowed to use **any** version of the VM emulator or Logisim.
+* The other rules and procedures will be the same as for test 1. In particular, you must **not** submit any work after leaving the exam room and you must **not** use any external materials. (As with test 1, we will carry out brief random checks.)
+* You will be given a copy of [this reference sheet](https://cs-uob-overview-of-architecture.github.io/exam_files/reference2.pdf).
+* There are two practice papers available on the unit page, again [here](https://cs-uob-overview-of-architecture.github.io/exam/#in-class-test-2-details). These have been written to give you a good idea of the likely format and difficulty of the exam, so do give them a look!
+
+Best wishes,
+
+John and Kira
+
 ## Revised quiz now available
 
 Hi all,
