@@ -14,6 +14,28 @@ Table of contents
 
 # Announcements Page
 
+## CPU emulator updated in labs + troubleshooting tips
+
+Hi all,
+
+This is an announcement to say that the CPU emulator installed in MVB 2.11 has now been updated to the same version available from the unit page (with e.g. symbolic mode). I tested this yesterday afternoon and it seems to be working fine - if any of you run into problems, please let us know ASAP so we can get it sorted before the test! To start it, open up a terminal and enter commands:
+
+`module load nand2tetris`
+`CPUEmulator.sh`
+
+As before, you can also access the assembler:
+
+`module load nand2tetris`
+`Assembler.sh`
+
+Finally, there are three somewhat common issues with the lab computers you might run into. The first is a login issue going round in the lab computers where you'll enter your username and password, it will show the time of the last login, and then you'll be kicked back to the username entry without any further error. In my experience, you can fix this consistently by turning off the computer you're sitting at and then turning it back on again. The second is an issue where Firefox fails to start with no error message displayed. This can be fixed by opening up a terminal and entering the command `firelockrm`. The third is an issue where Firefox fails to log in to Blackboard, displaying only a gray screen, and this can be fixed by deleting your profile folder (the location of which is visible in about:profiles).
+
+If you have other issues with the lab computers, your first port of call should be IT services [here](https://www.bristol.ac.uk/students/support/it/contact-it-for-support/). If it's a couple of days before the test and it's still unresolved, let us know as well so we can both try to expedite things and arrange a backup computer for you if necessary. Like last time, we'll have IT on hand to help with any issues during the test itself, but it's always less hectic to know beforehand.
+
+Best wishes,
+
+John and Kira
+
 ## Week 12 and exam info
 
 Hi all,
