@@ -21,7 +21,7 @@ Two practice papers are available below; the actual test will be similar in form
 * [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184673_1&mode=cpview) (model answers available on submission, just click OK)
 * [Practice paper B: Practical part](../exam_files/Paper_1B_practical.pdf) ([skeleton file](../exam_files/Paper_1B_practical_skeleton.circ), [model answers](../exam_files/Paper_1B_practical_answers.circ))
 
-We also encourage you to go back over the weekly Blackboard quizzes (for the theory part), and the weekly assignments (for the practical part). Some additional practice practical questions are below, with a skeleton file available [here](test-1-skeleton.circ) and solutions available [here](test-1-solutions.circ). These questions are further from the exam than the practice papers above, but still practice the same skills the exam will require.
+We also encourage you to go back over the weekly Blackboard quizzes (for the theory part), and the weekly assignments (for the practical part). Some additional practice practical questions are below, with a skeleton file available [here](https://cs-uob-overview-of-architecture.github.io/practice/test-1-skeleton.circ) and solutions available [here](https://cs-uob-overview-of-architecture.github.io/practice/test-1-solutions.circ). These questions are further from the exam than the practice papers above, but still practice the same skills the exam will require.
 
 * * *
 
@@ -134,7 +134,7 @@ Two practice papers are available below; the actual test will be similar in form
 * [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184866_1&mode=cpview) (model answers available on submission)
 * [Practice paper B: Practical part](../exam_files/Paper_2B_practical.pdf) ([model answers](../exam_files/Paper_2B_practical_answers.zip))
 
-We also encourage you to go back over the weekly Blackboard quizzes (for the theory part), and the weekly assignments (for the practical part). Some additional practice practical questions are below, with solutions available [here](test-2-solutions.zip). These questions are further from the exam than the practice papers above, but still practice the same skills the exam will require.
+We also encourage you to go back over the weekly Blackboard quizzes (for the theory part), and the weekly assignments (for the practical part). Some additional practice practical questions are below, with solutions available [here](https://cs-uob-overview-of-architecture.github.io/practice/test-2-solutions.zip). These questions are further from the exam than the practice papers above, but still practice the same skills the exam will require.
 
 * * *
 
