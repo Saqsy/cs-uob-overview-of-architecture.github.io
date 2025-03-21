@@ -14,6 +14,18 @@ Table of contents
 
 # Announcements Page
 
+## New practice questions available for resits
+
+Hi all,
+
+This is an announcement to those of you with resits in the summer to say that new practice questions are now available [here](../practice) with model answers, in addition to the practice papers. We're planning to integrate these into the unit next year, but it makes sense to release them now for those who need them!
+
+We're still waiting until closer to the time before announcing any drop-ins or similar - it doesn't make sense to start planning them until we know for sure what days the resits will be on. (We do know they'll be between July 21st and August 1st, but the resit scheduling is done centrally and the university doesn't know how many people are resitting which units until after the TB2 exams.)  As a reminder, we don't have any influence in terms of what type of resit you'll be getting (one paper or both), that's all down to the exam board and the school office. The usual policy is that you resit only the individual papers you've failed or self-certified.
+
+Best wishes,
+
+John and Kira
+
 ## CPU emulator updated in labs + troubleshooting tips
 
 Hi all,

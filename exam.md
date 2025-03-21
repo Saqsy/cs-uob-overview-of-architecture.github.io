@@ -57,13 +57,6 @@ During the test, an invigilator may briefly interrupt you and ask to see all the
 
 Results and feedback will be made available no later than 2-3 weeks after the test, accompanied by a Blackboard announcement. 
 
-Two practice papers are available below; the actual test will be similar in form and content. Note that these papers don't have any questions on transistors, but transistors *are* examinable.
-
-* [Practice paper A: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184643_1&mode=cpview) (model answers available on submission, just click OK)
-* [Practice paper A: Practical part](../exam_files/Paper_1A_practical.pdf) ([skeleton file](../exam_files/Paper_1A_practical_skeleton.circ), [model answers](../exam_files/Paper_1A_practical_answers.circ))
-* [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184673_1&mode=cpview) (model answers available on submission, just click OK)
-* [Practice paper B: Practical part](../exam_files/Paper_1B_practical.pdf) ([skeleton file](../exam_files/Paper_1B_practical_skeleton.circ), [model answers](../exam_files/Paper_1B_practical_answers.circ))
-
 ## In-class test 1 examinability
 
 By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.)
@@ -118,13 +111,6 @@ You may not bring a physical calculator into the test, as in the absence of an a
 * A reference for the standard memory map from Hack VM to Hack assembly.
 
 Results and feedback will be made available in January by email at the same time as your results from Programming in C and Overview of Software Tools. Two practice papers will be made available here closer to the time.
-
-Two practice papers are available below; the actual test will be similar in form and content.
-
-* [Practice paper A: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184855_1&mode=cpview) (model answers available on submission)
-* [Practice paper A: Practical part](../exam_files/Paper_2A_practical.pdf) ([model answers](../exam_files/Paper_2A_practical_answers.zip))
-* [Practice paper B: Theory part](https://www.ole.bris.ac.uk/webapps/blackboard/content/launchAssessment.jsp?course_id=_260193_1&content_id=_9184866_1&mode=cpview) (model answers available on submission)
-* [Practice paper B: Practical part](../exam_files/Paper_2B_practical.pdf) ([model answers](../exam_files/Paper_2B_practical_answers.zip))
 
 ## In-class test 2 examinability
 
