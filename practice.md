@@ -107,7 +107,7 @@ Permitted components: Any logic gates with 2 or fewer inputs, multiplexers, demu
 
 **Question 7:** Create a circuit with 1-bit inputs Up, Down, Left, and Right, and a 4-bit output Pos. Pos should represent the position of an item in a 2x2 grid, using one-hot encoding.  The bit of Pos that represents each position on the grid is shown below. For example, if the item is in the bottom left of the grid then Pos should be 0001.
 
-<div style="text-align:center"><img src="grid.png"/></div>
+<div style="text-align:center"><img src="practice/grid.png"/></div>
 
 If Up, Down, Left, or Right are high on a rising clock edge, Pos should be updated accordingly (you may assume only one of these inputs will be high at a time). For example, if Pos starts as 0001 and Right is high on the next rising edge, then Pos should immediately be updated to 0100. If Right is still high on the next rising edge, then Pos should remain as 0100, as the item has reached the rightmost edge of the grid.
 
