@@ -14,13 +14,13 @@ Table of contents
 
 Your grade for the unit will come from two in-class tests, which are exams in all but name. The first will be worth 40%, and will cover Kira's part of the unit; the second will be worth 60%, and will cover John's part of the unit. In each test, half the marks will be from a practical component (where you'll be doing the same sort of thing as in your weekly assignments) and the other half will be from an online theory component on Blackboard (where you'll be doing the same sort of thing as in your weekly workshops). 
 
-The first class test **worth 40% of the unit** will be held in week 6 on Wednesday October 23rd at 10am. For most students, this will be in MVB 2.11 (the same room as your weekly labs). Students with Alternative Exam Arrangements (AEAs) such as extra time will take the test in a different venue, usually MVB 1.15, but will be emailed seperately by the school office to confirm this.
+The first class test **worth 40% of the unit** will be held in week 6 on Friday October 31st at 1pm. For most students, this will be in MVB 2.11 (the same room as your weekly labs). Students with Alternative Exam Arrangements (AEAs) such as extra time will take the test in a different venue, usually MVB 1.15, but will be emailed seperately by the school office to confirm this.
 
-The second class test **worth 60% of the unit** will be held in week 13 on Thursday December 12th at 1pm. Again, for most students this will be in MVB 2.11 (the same room as your weekly labs). Students with Alternative Exam Arrangements (AEAs) such as extra time will take the test in a different venue, usually MVB 1.15, but will be emailed seperately by the school office to confirm this.
+The second class test **worth 60% of the unit** will be held in week 13 on Thursday December 18th at 1pm. Again, for most students this will be in MVB 2.11 (the same room as your weekly labs). Students with Alternative Exam Arrangements (AEAs) such as extra time will take the test in a different venue, usually MVB 1.15, but will be emailed seperately by the school office to confirm this.
 
 The following rules will apply for assessments taking place as an in class test. They have been designed in line with the University’s [exam regulations](https://www.bristol.ac.uk/media-library/sites/academic-quality/documents/taught-code/annexes/university-examination-regulations.pdf) and to ensure standardisation across units.
 
-* In class tests are in **person** and cannot be sat remotely. Submitting anything from outside the test room will be considered academic malpractice.
+* In class tests are **in-person** and cannot be sat remotely. Submitting anything from outside the test room will be considered academic malpractice.
 * Once in the test room you are required to be silent.
 * No additional time will be allowed for students arriving late.
 * No one is allowed to leave in the first 30 minutes or final 15 minutes of the test. Everyone is to remain in the room.
@@ -63,33 +63,7 @@ By default, all material covered in lecture slides and in assignments is examina
 
 Over the course of the weekly assignments, you're expected to have become familiar with Logisim components for circuits we've covered explicitly (e.g. counters, registers, flip-flops etc.) in the lecture slides. You're not expected to have become familiar with Logisim components for circuits we haven't covered (e.g. shift registers, comparators etc.) It's also worth remembering that in the exam, you can always hover over a pin of a Logisim component to get a quick reminder of what it does, so you don't have to memorise anything.
 
-The following material is **non-examinable**, despite appearing in lecture slides or assignments:
-
-**Week 1:**
-
-* Venn diagrams from week 1 video 1 ("Boolean algebra") are non-examinable.
-* The detailed circuit diagrams of NAND boards from week 1 video 4 ("NAND") are non-examinable. In particular, you are not expected to know anything about resistors.
-* You will not be asked to do anything with NAND boards physically (e.g. building circuits). You may still be asked questions about NAND boards in the theory component, e.g. being given a picture of a NAND board and being asked to match pins to functions.
-* The method from the week 1 assignment of implementing an XOR gate with four NAND gates is non-examinable.
-
-**Week 2:**
-
-* In week 2 video 1 ("Representing numbers"), on slide 8, the formula for the value of a base-B number is given in sigma-notation. This notation is non-examinable. The formula itself (that a D-digit base-B number with digits xD-1, xD-2, ..., x1, x0 from left to right has value xD-1\*BD-1 + xD-2\*BD-2 + ... + x1\*B + x0\*1) is still examinable.
-* The IEEE-754 standard alluded to in week 2 video 3 ("Binary subtraction") is non-examinable. Expressing a binary number in exponent-mantissa form in general (e.g. expressing 2.75 as a mantissa of 0b1011 and an 8-bit exponent of -2 = 0b11111110) is still examinable, as is the general concept of IEEE-754 (e.g. you should understand that it defined how values like NaN and infinity should be stored).
-* Your specific implementation of the Hack ALU from the week 2 assignment is non-examinable. (Behaviour of the Hack ALU is examinable, though.)
-
-**Week 3:**
-
-* The failed register design from week 3 video 3 ("From flip-flops to registers") is non-examinable, although you should understand why it fails and be able to identify similar issues in other circuits.
-* You are expected to be able to calculate logarithms with access to a calculator using the formula from week 3 video 3 ("From registers to RAM"), and to be able to apply their definition to solve problems in circuit design (e.g. "if RAM consists of 32KB of memory divided into 16-bit words, how many bits are needed to store an address?"). Every other aspect of logarithms is non-examinable and you are not expected to have seen them before starting the degree. In particular, you do not need to know how to prove the formula log2(x) = logb(x) / logb(2) given in lectures, or how to calculate logarithms without a calculator supporting log or ln, or the definition of e, or properties like log(xy) = log(x) + log(y).
-* Ring oscillators (the set of 5 NOT gates) from the week 3 assignment are non-examinable.
-* T flip-flops and JK flip-flops from the week 3 assignment are non-examinable, although you may use them as components in Logisim if you wish to do so (and the question does not restrict which components you use).
-
-**Week 4:**
-
-* BJT transistors from week 4 video 2 ("Transistors") are non-examinable.
-* The finite state machine used by Celeste linked in week 4 video 1 ("Building with flip-flops and registers") is non-examinable, and you are not expected to have looked at it.
-* The rise/fall detector and traffic lights from the week 4 assignment are non-examinable, although the general skill of designing complex circuits is examinable.
+A detailed list of non-examinable material will be made available closer to the time, when the material has been covered.
 
 ## In-class test 2 details
 
@@ -116,37 +90,4 @@ Results and feedback will be made available in January by email at the same time
 
 By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.) 
 
-Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Here is a full list of what is **<u>not</u>** examinable:
-
-**General:**
-
-* You will not be examined on your ability to program in C or your knowledge of C syntax. However, you are expected to understand the basic concepts of programming taught in that unit (e.g. loops, functions, pointers etc.) insofar as this unit relies on it, and questions may use examples from C for illustrative purposes. For example, a question might refer to “an abstract data type (such as a struct in C or a class in Jack)”.
-* Specific details of C’s behaviour not covered in Programming in C (like the difference between char *myArray = “Hello, world!”; and char myArray[] = “Hello, world!”; covered in week 11 video 3) are also non-examinable and are provided purely for illustrative purposes.
-* You will only be examined on weeks 1-4 insofar as weeks 5 and 7-11 rely on this content. For example, you will not be asked to convert a hexadecimal number into decimal as a question in its own right, but you may well be given a memory address in hexadecimal format and need to convert that address into decimal format as part of answering a larger question in the practical part of the exam.
-* You will not be asked to design any circuits or to use Logisim in the practical part of the exam.
-* The specific solutions for weekly assignments from weeks 5, 7, 8 and 11 are non-examinable except insofar as they overlap with lectures. For example, you will be expected to know how to write a program like checkerfill.asm from the week 5 assignment, but you will not be expected to have memorised checkerfill.asm and you won’t be asked to reproduce it.
-* The C code for weekly assignments from weeks 9 and 10 is non-examinable, but you will be expected to know how to translate Hack VM code into Hack assembly code and may be asked to do so (as in the practice papers).
-* Any specific details of non-Hack assembly languages are non-examinable. For example, you will be expected to understand the difference between direct and indirect addressing from week 7 video 3, but you will not be expected to remember the ARM syntax for either. General properties of non-Hack assembly languages (such as that ARM is used in most modern mobile devices) remain examinable.
-
-**Week 5:**
-
-* The definition of a Turing machine in video 3 is non-examinable. The other contents of the slide (the Church-Turing thesis, Turing-completeness, and the Halting Problem) are examinable, though only at the level covered by the slide.
-
-**Week 7:**
-
-* Exact details of specific CPUs mentioned in videos 3-4, such as the number of cycles required per instruction or the time in nanoseconds to retrieve data from memory. (However, you are expected to remember the key qualitative details that are common across all CPUs, such as L3 cache access being slower than L1 cache access.)
-
-**Week 8:**
-
-* The Hack assembly grammar is examinable, but you don’t need to memorise the definition – if questions are asked about it, you will be given the relevant excerpts of the EBNF. The same is true for the grammars covered in video 3.
-* The last slide of video 2 (on using multiple symbol tables to handle scopes in a high-level language) is only examinable insofar as it overlaps with the week 11 material.
-
-**Week 9:**
-
-* The Hack VM grammar is examinable, but you don’t need to memorise the definition – if questions are asked about it, you will be given the relevant excerpts of the EBNF.
-
-**Week 11:**
-
-* You are not expected to know how to program in Jack. You will not be asked about the details of Jack as a language, and you will not be asked to read, write, or debug Jack code. However, you are expected to understand both the general principles of how to compile a high-level language into Hack VM to the full extent that this is explored in Jack. For example, you are expected to know what a method is, and you might be asked about the process of compiling a method to Hack VM, but you will not be asked to read, write, or debug a method declaration in Jack.
-* Likewise, the Jack grammar is examinable, but you don’t need to memorise the definition – if questions are asked about it, you will be given the relevant excerpts of the EBNF.
-* Likewise, with the exceptions of Memory.alloc, Memory.deAlloc, and Sys.init (all of which you are expected to know), any details you need of the Hack “operating system” as covered in Nisan and Schocken Appendix 6 will be provided to you.
+A detailed list of non-examinable material will be made available closer to the time, when the material has been covered.

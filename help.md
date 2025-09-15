@@ -19,9 +19,9 @@ Before contacting anyone, it's worth skimming through this FAQ (or using the ful
 ### I need help understanding a concept from the unit. What should I do?
 
 You have several good options:
-1. Ask a question in the unit team (link TBD), and a TA or lecturer will answer within one working day. Try to make your question specific, though - "I don't understand the link between truth tables and electrical signals" will get you a more helpful response than "I don't understand gates".
+1. Ask a question in the unit team, and a TA or lecturer will answer within two working days (usually sooner). Try to make your question specific, though - "I don't understand the link between truth tables and electrical signals" will get you a more helpful response than "I don't understand gates".
 1. Ask a question in the weekly Q&A, which you can do either in the room or anonymously via Padlet. I'll prioritise questions about the current week's material, but you can ask questions about earlier weeks as well.
-1. Ask a lecturer or TA during one of the Tuesday live sessions or Thursday labs. 
+1. Ask a lecturer or TA during one of the weekly live sessions or labs. 
 1. Attend one of the weekly Monday office hours or TA drop-in sessions (on most other days) and ask a lecturer or TA there.
 1. Take a look at the recommended readings for the week [here](../readings) to get a different view on the topic from the lecture notes.
 1. If all else fails, try Google! Nothing in this unit is so obscure you can't find good sources online.
