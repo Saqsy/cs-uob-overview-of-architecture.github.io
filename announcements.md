@@ -12,6 +12,14 @@ Table of contents
 {:toc}
 </details>
 
-# Announcements Page
+# Welcome
+Welcome to the unit!
 
-No announcements yet!
+This is the Teams channel you can use to post any questions - we’ll be keeping an eye on it throughout the term.
+ 
+Week 1 materials are now available on [the unit’s GitHub page](https://cs-uob-overview-of-architecture.github.io/#schedule-and-links-to-materials). There’s lots of information there, so it’d be useful to have a browse when you can. No need to look at anything before our first workshop on Monday though, as it’ll just be an introduction to the course, how it’s structured, and plenty of time for questions.
+ 
+Our Tuesday Q&A will be the first point where it’ll be useful to have reviewed the week 1 materials, as that session is all about helping you make sense of the lecture content - we’ll go over the logistics of all sessions properly on Monday.
+ 
+All the best,
+Kira and John

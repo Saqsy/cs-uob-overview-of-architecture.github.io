@@ -46,7 +46,7 @@ A **weekly assignment** and **solutions to last week's assignment** will be rele
 
 A **live workshop** will take place **the following** Monday from 1pm-3pm in room 2.11 of the Merchant Venturers Building. (So for example, the week 2 live workshop will cover the material from week 1, and the week 1 workshop will be an introductory lecture with no prerequisites.) By this point, you should have finished the week's assignment and should be starting to look at the following week's video lectures. These will vary in content as the unit goes on, but will typically be a mixture of live problem-solving and TA-supported mini-quizzes. Everyone should attend these. That said, don't drag yourself in if you're ill or similar - all workshops will be recorded, and the recordings and other materials will be made available later.
 
-The schedule below acts as a quick reference and link hub, and will be updated each Monday morning.
+The schedule below acts as a quick reference and link hub, and will be updated each Friday afternoon.
 
 ## Schedule and links to materials
 
