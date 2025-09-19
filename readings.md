@@ -27,4 +27,6 @@ This course will use three main textbooks. None of them are required reading, bu
 
 ## Week 1 reading
 
-Nothing here yet!
+**The Elements of Computing Systems:** Chapter 1.1 covers Boolean algebra, chapter 1.2 covers logic gates.
+
+**Digital Design and Computer Architecture:** Chapters 1.5 and 2.4 cover logic gates, chapters 2.2 and 2.3 cover Boolean algebra, chapter 2.5.2 covers bubble pushing, and chapter 2.7 covers Karnaugh maps.
