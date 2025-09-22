@@ -13,4 +13,8 @@ Table of contents
 {:toc}
 </details>
 
-Nothing here yet! Any errata will be linked from the video itself on the front page, so there's no need to keep checking back.
+Any errata will be linked from the video itself on the front page and fixed in the slides, so there's no need to keep checking back here.
+
+## Week 1 intro talk
+
+Slide 7 referred to the "Tuesday live sessions" - Tuesday should have read Monday, these are the normal workshops you have timetabled from 1pm-3pm.
