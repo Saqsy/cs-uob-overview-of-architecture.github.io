@@ -40,9 +40,9 @@ A **weekly assignment** and **solutions to last week's assignment** will be rele
 
 **Office hours** are hour-long **optional** (and hence untimetabled) sessions in which you can ask Kira or John questions one-on-one or with a small group of friends. We also expect have an assortment of **optional** hour-long drop-in sessions with TAs throughout the week.
 
-- Wednesdays 11-12pm, weeks 1-5 & 7-12 in MVB 4.01 with Kira (weeks 1-4) or John (weeks 5, 7-12)
-- TBC with Alex
-- TBC with Mahesh
+- Mondays 11-12, weeks 2-5 in MVB 2.19a & weeks 7-12 in MVB 4.01 with Alex
+- Wednesdays 11-12, weeks 1-5 & 7-12 in MVB 4.01 with Kira (weeks 1-4) or John (weeks 5, 7-12)
+- Fridays 3-4, weeks 1-5 & 7-12 in MVB 4.01 with Mahesh
 
 **Q&A sessions** take place every Tuesday at 3pm in room LT3 of the Chemistry Building. These are hour-long optional sessions in which Kira and I answer any questions about the unit you might have - for example, questions about the video lectures, the weekly assignment, the live workshop (see below), or the exam. You can ask questions in advance or from online during the session via Padlet, and a TA will handle online questions as they come in. Importantly, using Padlet, you can ask questions anonymously. Attendance is optional, but encouraged if you're having difficulty with any part of the week's material. All Q&A sessions will be recorded, and the recordings will be made available later.
 
