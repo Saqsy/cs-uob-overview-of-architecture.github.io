@@ -63,7 +63,35 @@ By default, all material covered in lecture slides and in assignments is examina
 
 Over the course of the weekly assignments, you're expected to have become familiar with Logisim components for circuits we've covered explicitly (e.g. counters, registers, flip-flops etc.) in the lecture slides. You're not expected to have become familiar with Logisim components for circuits we haven't covered (e.g. shift registers, comparators etc.) It's also worth remembering that in the exam, you can always hover over a pin of a Logisim component to get a quick reminder of what it does, so you don't have to memorise anything.
 
-A detailed list of non-examinable material will be made available closer to the time, when the material has been covered.
+The following material is **non-examinable**, despite appearing in lecture slides or assignments:
+
+**Week 1:**
+
+* C syntax used in week 1 videos 1 and 3 is non examinable, though the concepts these code snippets illustrate are.
+* Venn diagrams from week 1 video 1 are non-examinable.
+* The detailed circuit diagrams of NAND boards from week 1 video 4 are non-examinable. In particular, you are not expected to know anything about resistors.
+* You will not be asked to do anything with NAND boards physically, e.g. building circuits on an actual NAND board. You may still be asked questions about NAND boards in the theory component, e.g. being given a picture of a NAND board and being asked to match pins to functions.
+* Proving the method of implementing an XOR gate with four NAND gates (from the week 1 assignment) is non-examinable. You may still be required to recognise this circuit design and understand its functionality.
+
+**Week 2:**
+
+* C syntax used in week 2 videos 1, 3, and 4 is non examinable, though the concepts these code snippets illustrate are.
+* The specific chmod functionality and printf() syntax used in week 2 video 1 is non examinable, although the general utility of octal/hexadecimal for file permissions and memory locations is examinable.
+* The sigma notation for the formula for the value of a base-B number used in week 2 video 1 is non-examinable. The formula itself (that a D-digit base-B number with digits xD-1, xD-2, ..., x1, x0 from left to right has value xD-1\*BD-1 + xD-2\*BD-2 + ... + x1\*B + x0\*1) is still examinable.
+* The IEEE-754 standard alluded to in week 2 video 3 is non-examinable. Expressing a binary number in exponent-mantissa form in general, e.g. expressing 2.75 as a mantissa of 0b1011 and an 8-bit exponent of -2 = 0b11111110, is still examinable, as well as the general concept of IEEE-754, e.g. you should understand that it defines how values like NaN and infinity should be stored.
+
+**Week 3:**
+
+* The failed register design from week 3 video 3 is non-examinable, although you should understand why it fails and be able to identify similar issues in other circuits.
+* You are expected to be able to calculate logarithms with access to a calculator using the formula from week 3 video 3, and to be able to apply their definition to solve problems in circuit design, e.g. "if RAM consists of 32KB of memory divided into 16-bit words, how many bits are needed to store an address?". Every other aspect of logarithms is non-examinable and you are not expected to have seen them before starting the degree. In particular, you do not need to know how to prove the formula log2(x) = logb(x) / logb(2) given in lectures, or how to calculate logarithms without a calculator supporting log or ln, or the definition of e, or properties like log(xy) = log(x) + log(y).
+* Ring oscillators (the set of 5 NOT gates) from the week 3 assignment are non-examinable.
+* T flip-flops and JK flip-flops from the week 3 assignment are non-examinable.
+
+**Week 4:**
+
+* The finite state machine used by Celeste linked in week 4 video 1 is non-examinable, and you are not expected to have looked at it.
+* BJT transistors from week 4 video 2 are non-examinable.
+* The rise/fall detector and traffic lights from the week 4 assignment are non-examinable, although the general skill of designing complex circuits is examinable.
 
 ## In-class test 2 details
 

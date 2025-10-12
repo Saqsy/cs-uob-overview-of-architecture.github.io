@@ -12,7 +12,7 @@ Table of contents
 {:toc}
 </details>
 
-## Test 1 practice questions
+## Test 1 practice papers
 
 Two practice papers are available below; the actual test will be similar in form and content. Note that these papers don't have any questions on transistors, but transistors *are* examinable.
 
@@ -20,6 +20,8 @@ Two practice papers are available below; the actual test will be similar in form
 * [Practice paper A: practical part](../practice/paper_1a/practical_paper.pdf) ([skeleton file](../practice/paper_1a/skeleton.circ), [model answers](../practice/paper_1a/solutions.circ))
 * [Practice paper B: theory part](https://www.ole.bris.ac.uk/ultra/courses/_264263_1/outline) (located under "Practice in-class tests", model answers available on submission - just click OK)
 * [Practice paper B: practical part](../practice/paper_1b/practical_paper.pdf) ([skeleton file](../practice/paper_1b/skeleton.circ), [model answers](../practice/paper_1a/solutions.circ))
+
+## Test 1 practice questions
 
 We also encourage you to go back over the weekly Blackboard quizzes (for the theory part), and the weekly assignments (for the practical part). Some additional practice practical questions are below, with a skeleton file available [here](../practice/test_1_skeleton.circ) and solutions available [here](../practice/test_1_solutions.circ). These questions are further from the exam than the practice papers above, but still practice the same skills the exam will require.
 
