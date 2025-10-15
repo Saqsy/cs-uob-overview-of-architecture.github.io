@@ -19,7 +19,7 @@ Two practice papers are available below; the actual test will be similar in form
 * [Practice paper A: theory part](https://www.ole.bris.ac.uk/ultra/courses/_264263_1/outline) (located under "Practice in-class tests", model answers available on submission - just click OK)
 * [Practice paper A: practical part](../practice/paper_1a/practical_paper.pdf) ([skeleton file](../practice/paper_1a/skeleton.circ), [model answers](../practice/paper_1a/solutions.circ))
 * [Practice paper B: theory part](https://www.ole.bris.ac.uk/ultra/courses/_264263_1/outline) (located under "Practice in-class tests", model answers available on submission - just click OK)
-* [Practice paper B: practical part](../practice/paper_1b/practical_paper.pdf) ([skeleton file](../practice/paper_1b/skeleton.circ), [model answers](../practice/paper_1a/solutions.circ))
+* [Practice paper B: practical part](../practice/paper_1b/practical_paper.pdf) ([skeleton file](../practice/paper_1b/skeleton.circ), [model answers](../practice/paper_1b/solutions.circ))
 
 ## Test 1 practice questions
 
