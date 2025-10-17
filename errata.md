@@ -18,3 +18,7 @@ Any errata will be linked from the video itself on the front page and fixed in t
 ## Week 1 intro talk
 
 Slide 7 referred to the "Tuesday live sessions" - Tuesday should have read Monday, these are the normal workshops you have timetabled from 1pm-3pm.
+
+## Week 5 video 4
+
+Part of the video shows a version of slide 3 with 15 bits stored under "Contents" rather than 16 bits.
