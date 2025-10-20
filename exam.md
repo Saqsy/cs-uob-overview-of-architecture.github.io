@@ -37,7 +37,7 @@ The following rules will apply for assessments taking place as an in class test.
 
 ## Mock test
 
-In week 5 we will run a mock test - more details will be available closer to the time. This will be almost exactly like the real test in terms of procedures, but it doesn't have any marks associated with it and will only last for a few minutes. The point is just to make sure that everyone knows exactly what the real test will involve, what's allowed and what isn't. Attendance is optional but encouraged.
+In week 5 we will run a mock test at the start of the Thursday lab, at 1pm on October 23rd. This will be almost exactly like the real test in terms of procedures, but it doesn't have any marks associated with it and will only last for a few minutes. The point is just to make sure that everyone knows exactly what the real test will involve, what's allowed and what isn't. Attendance is optional but encouraged.
 
 ## In-class test 1 details
 
