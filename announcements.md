@@ -12,18 +12,29 @@ Table of contents
 {:toc}
 </details>
 
-# Welcome
-Welcome to the unit!
+## Exam rule reminders
 
-The [unit's Teams channel](https://teams.microsoft.com/l/channel/19%3A-C1mntYz_enrIpuskEuaHKfzw5YsxUKp7drZk2gre8g1%40thread.tacv2/General?groupId=9f51e45f-a8c1-4e5d-a0bf-12553fc32b76&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b) is now live, where you can post any questions - we’ll be keeping an eye on it throughout the term.
+Hi all,
  
-Week 1 materials are now available on [the unit’s GitHub page](https://cs-uob-overview-of-architecture.github.io/#schedule-and-links-to-materials). There’s lots of information there, so it’d be useful to have a browse when you can. No need to look at anything before our first workshop on Monday though, as it’ll just be an introduction to the course, how it’s structured, and plenty of time for questions.
+This is a quick announcement to re-emphasise some important points on the rules for test 1 on Friday. It's not an exhaustive list - you can see that [here](https://cs-uob-overview-of-architecture.github.io/exam/#in-class-test-1-details) as usual - just the most common points of confusion. **Please read this announcement carefully!**
  
-Our Tuesday Q&A will be the first point where it’ll be useful to have reviewed the week 1 materials, as that session is all about helping you make sense of the lecture content - we’ll go over the logistics of all sessions properly on Monday.
+* For the practical part of the exam, you are **only** allowed to use Logiexam. You are **not** allowed to use either Logisim or Logisim Evolution - both these versions contain functionality that trivialises exam questions about implementing truth tables. Use of either in the exam (particularly this banned functionality) will be treated as academic misconduct. Importantly, Logisim Evolution is the default file association for .circ files - we're trying to get this changed but haven't managed yet. This means that **if you double-click skeleton.circ, it will open in Logisim Evolution - the banned version.**  Instead, you should open Logiexam from the desktop, then once the exam has started, download and open the skeleton (which will probably be saved to ~/Downloads) through the Logiexam menu File>Open. We won't start the exam until everyone has Logiexam open.
  
-All the best,
-
-Kira and John
+* For calculators, you are **only** allowed to use either "Calculator" in basic or advanced mode or "KCalc" in simple or science mode. In particular, you are **not** allowed to use "Calculator" in programming mode or "KCalc" in numeral systems mode - these modes trivialise exam questions about converting between bases, and any use of them will be treated as academic misconduct.
+ 
+* Each question in the practical section lists various allowed components (e.g. 2-input AND gates). Splitters, clock inputs, and in general anything in the wiring folder **are** allowed components for **every** question and won't be listed explicitly. This is mentioned in the rubric, but students sometimes miss it in the stress of the exam. Creating your own subcircuits is also fine, and you don't need to name them anything special.
+ 
+* You aren't allowed to wear coats in the room (I believe because of the pockets). MVB 2.11 has aggressive air conditioning that we can't turn down - the room does warm up after a while with people in it, but I'd strongly recommend you **wear warm clothing**.
+ 
+* **All external materials and websites are banned during the exam**, and this **does** include dictionaries and translation sites. I personally disagree with this inclusion, but given that it exists, we *have* to enforce it strictly - otherwise, students that broke the rule would get an unfair advantage over students that didn't. As such, use of dictionaries or translation sites will be treated as academic misconduct.
+ 
+* You are **not** allowed to submit work from outside the exam room under any circumstances. The submission point will stay open for a while after the main exam ends, but this is for the benefit of students with extra time due to Alternative Exam Arrangements. Any submission from outside the exam room will be treated as academic misconduct - the presumption will be that you spent time improving your answers using external materials.
+ 
+* We very strongly encourage you to spend a couple of extra minutes verifying that your answers to the practical actually work. The ability to do this is why we give you access to Logiexam in the first place rather than asking you to draw out circuit diagrams on paper! If your answer doesn't work due to a single silly mistake, when we decide on how much partial credit to give, our assumption will be that you tried to get it working and couldn't - so we'll penalise it relatively harshly.
+ 
+Best wishes,
+ 
+John and Kira
 
 ## Week 5 content and important test announcements
 
@@ -49,3 +60,17 @@ The remaining announcements are shorter and simpler:
 Best wishes,
 
 John and Kira
+
+## Welcome
+
+Welcome to the unit!
+
+The [unit's Teams channel](https://teams.microsoft.com/l/channel/19%3A-C1mntYz_enrIpuskEuaHKfzw5YsxUKp7drZk2gre8g1%40thread.tacv2/General?groupId=9f51e45f-a8c1-4e5d-a0bf-12553fc32b76&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b) is now live, where you can post any questions - we’ll be keeping an eye on it throughout the term.
+ 
+Week 1 materials are now available on [the unit’s GitHub page](https://cs-uob-overview-of-architecture.github.io/#schedule-and-links-to-materials). There’s lots of information there, so it’d be useful to have a browse when you can. No need to look at anything before our first workshop on Monday though, as it’ll just be an introduction to the course, how it’s structured, and plenty of time for questions.
+ 
+Our Tuesday Q&A will be the first point where it’ll be useful to have reviewed the week 1 materials, as that session is all about helping you make sense of the lecture content - we’ll go over the logistics of all sessions properly on Monday.
+ 
+All the best,
+
+Kira and John
