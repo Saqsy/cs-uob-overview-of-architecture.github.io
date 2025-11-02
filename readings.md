@@ -58,3 +58,9 @@ This course will use three main textbooks. None of them are required reading, bu
 **Digital Design and Computer Architecture:** This week, this book is strictly worse than Elements of Computing Systems - it's based around a different assembly language, it spends very little time explaining how to translate ideas into assembly, and it binds the assembly to the electronics far more tightly than this unit does (for now).
 
 **Just for fun:** In video 5-4 we talked briefly about how in the early 80s, programmers would sometimes use screen RAM as temporary storage. [Here](https://www.youtube.com/watch?v=5HSjJU562e8)'s a neat video from Retro Game Mechanics Explained (an outstanding channel) going in the other direction - an Atari 2600 game called Yar's revenge writes its own code to the screen RAM to produce a rapidly-changing graphical barrier, and RGME tries to use that to reverse engineer the game's code.
+
+## Week 7 reading
+
+**The Elements of Computing Systems:** Chapter 4.2.3 contains the map between Hack assembly and machine code discussed in video 1. Chapter 5 focuses on implementing the CPU as discussed in video 2, and is a good first port of call if you'd like some help with the assignment. Be aware that Nisan and Schocken use their own HDL for this rather than Logisim. For the most part the details are the same, but you should skip 5.2.4 (which discusses the screen and keyboard).
+
+**Digital Design and Computer Architecture:** Chapters 7.3-7.5 walk through the process of implementing a pipelined CPU for MIPS, and chapter 8.3 contains a detailed discussion of memory caching. These go far beyond what you'll need for the unit, but are an interesting read.
