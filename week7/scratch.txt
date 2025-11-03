@@ -1,0 +1,76 @@
+QUESTION 1
+
+Your code should read the values in RAM[0] and RAM[1], then behave as follows.
+
+- Add RAM[0] to RAM[1], then store the result in RAM[2].
+- If RAM[2] is positive, then multiply RAM[2] by 3.
+- Take a bitwise OR of RAM[2] with RAM[1] and store the result in RAM[2].
+
+You may assume that RAM[0] and RAM[1] are between -10000 and 10000 (so that no integer overflows can occur).
+
+Pseudocode:
+
+RAM[2] = RAM[0] + RAM[1];
+if (RAM[2] > 0) {
+	RAM[2] = RAM[2] * 3;
+}
+RAM[2] = RAM[2] | RAM[1];
+
+RAM[0] = 3
+RAM[1] = 5:
+
+RAM[2] = 8
+RAM[2] = 24
+RAM[2] = 24 | 5
+11000 | 101 = 11101 = 29
+
+
+
+QUESTION 2
+
+Draw a right-angled triangle from the top-left corner of the screen to the bottom-middle of the screen.
+
+First work out what needs to be written to what parts of memory.
+
+Top-left pixel:
+Write 1 to RAM[SCREEN] = RAM[0x4000]
+First 16 rows we want to write:
+
+RAM[0x4000] = 0b1
+RAM[0x4020] = 0b11
+RAM[0x4040] = 0b111
+...
+RAM[0x42A0] = 0b1111 1111 1111 1111
+
+Then this pattern repeats in the next row, shifted to the right.
+
+So e.g. RAM[0x42C0] = 0b1111 1111 1111 1111, RAM[0x42C1] = 0b1.
+
+int rowstart = 0x4000;
+int rowlength = 0;
+int diagonal = 1;
+while(rowstart < 0x6000) {
+	pos = rowstart;
+	while(pos < rowstart + rowlength) {
+		RAM[pos] = 0xffff;
+		pos += 1;
+	}
+	RAM[rowstart + rowlength] = diagonal;
+	rowstart += 0x20;
+	If (diagonal == 0xffff) {
+		rowlength += 1;
+		diagonal = 1;
+	} else {
+		diagonal = 2*diagonal + 1;
+	}
+}
+Halt.
+
+
+In binary, shifting the whole number left by one place is the same as multiplying it by 2:
+
+16 8 4 2 1
+   1 0 1 1
+1  0 1 1 0
+
+So what this means is that adding a 1 to the end is the same as multiplying by 2 and adding 1.
