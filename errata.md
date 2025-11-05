@@ -23,6 +23,8 @@ Slide 7 referred to the "Tuesday live sessions" - Tuesday should have read Monda
 
 Part of the video shows a version of slide 3 with 15 bits stored under "Contents" rather than 16 bits.
 
+Slide 5 of the video says that "for example, @SCREEN followed by M=1 would colour the 16th pixel black" - "16th" should read "first".
+
 ## Week 7 video 3
 
 Slide 4 makes the claim that in modern CPUs, usually CISC is better than RISC for high-speed high-power applications. In fact, the pendulum has been swinging back the other way in recent years and RISC is competitive with CISC in these domains as well.
