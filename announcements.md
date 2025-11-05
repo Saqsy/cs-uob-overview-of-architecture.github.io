@@ -12,6 +12,16 @@ Table of contents
 {:toc}
 </details>
 
+## Don't ignore this unit for C, that way lies doom and madness
+
+Hi all,
+
+I noticed lab and Q&A attendance has been quite sparse so far this week, so I wanted to put out a quick announcement to re-emphasise that it's *really important* you're OK with the week 5 material and assignment going into next week (when we'll start talking about how to write an assembler), and that it's fine to come into labs this week to work on the week 5 material. I know the C coursework just came out and it's tempting to focus on that, but the second half of this unit is **not** something you can learn from scratch in the week before the exam - it's something that's going to snowball out of control if you don't get on top of it now. In my experience, usually the people who come to labs, Q&As and/or office hours and ask questions pass test 2 comfortably even when they find the material very difficult. The people who put things off and come to labs in week 12 to ask how jumps work... often don't. The benefit you get from freeing up a few hours a week to spend on your C coursework isn't worth failing this whole unit over!
+
+Best wishes,
+
+John
+
 ## Exam rule reminders
 
 Hi all,
