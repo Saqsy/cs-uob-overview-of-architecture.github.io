@@ -1,0 +1,67 @@
+WARM-UP
+
+Goal: Starting with the RAM address stored in RAM[0], set the next RAM[1] words of RAM to -1. For example, if RAM[0] = 1000 and RAM[1] = 3, then RAM[1000], RAM[1001] and RAM[1002] should all be set to -1.
+
+Pseudocode:
+
+int pos = RAM[0];
+int j = RAM[1];
+while(j > 0) {
+	RAM[pos] = -1
+	j--;
+	pos++;
+}
+
+QUESTION 2 APPROACH
+
+Goal: Draw a right-angled triangle from the top-left corner of the screen to the bottom-middle of the screen.
+
+First work out what needs to be written to what parts of memory.
+
+Top-left pixel:
+Write 1 to RAM[SCREEN] = RAM[0x4000]
+First 16 rows we want to write:
+
+RAM[0x4000] = 0b1
+RAM[0x4020] = 0b11
+RAM[0x4040] = 0b111
+...
+RAM[0x42A0] = 0b1111 1111 1111 1111
+
+Then this pattern repeats in the next row, shifted to the right.
+
+So e.g. RAM[0x42C0] = 0b1111 1111 1111 1111, RAM[0x42C1] = 0b1.
+
+// Address of the start of the row we're currently writing to
+int rowstart = 0x4000; 
+// Number of all-black words at the start of the row we're currently writing to
+int rowlength = 0;
+// Value to write at the end of the current row
+int diagonal = 1;
+while(rowstart < 0x6000) {
+	// Address of the 16x1 pixel block we're currently writing to
+	pos = rowstart;
+	while(pos < rowstart + rowlength) {
+		RAM[pos] = 0xffff;
+		pos += 1;
+	}
+	RAM[rowstart + rowlength] = diagonal;
+	rowstart += 0x20;
+	If (diagonal == 0xffff) {
+		rowlength += 1;
+		diagonal = 1;
+	} else {
+		diagonal = 2*diagonal + 1;
+	}
+}
+Halt.
+
+
+In binary, shifting the whole number left by one place is the same as multiplying it by 2:
+
+16 8 4 2 1
+   1 0 1 1 = 8*1  + 4*0 + 2*1 + 1*1
+1  0 1 1 0 = 16*1 + 8*0 + 4*1 + 2*1 = 0b1011*2
+
+
+So what this means is that adding a 1 to the end is the same as multiplying by 2 and adding 1.
