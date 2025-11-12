@@ -12,6 +12,16 @@ Table of contents
 {:toc}
 </details>
 
+## Test 1 result release date
+
+Hi all,
+
+We're currently planning to release the results for test 1 on **Friday November 21st** (so not this Friday but next Friday). We'll then spend the workshop on Monday November 24th going over the results and going through each question in detail. 
+
+Best wishes,
+
+John and Kira
+
 ## Don't ignore this unit for C, that way lies doom and madness
 
 Hi all,
