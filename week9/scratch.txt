@@ -1,0 +1,123 @@
+Goal: Be able to compile statements of the form
+
+let x = 5+y+9-foo [some arithmetic expression of integers and variables]
+
+Step 1: What are the tokens? Here:
+
+Identifiers (e.g. x, y, foo)
+Integer literals (e.g. 5, 9)
+Operators (e.g. +, -)
+=
+let
+
+For simplicity, for now, let's say we stick to:
+Identifiers
+Integer literals
+'+', '-', '=', 'let'
+
+Step 2: What is the grammar?  Goal is to create a non-terminal <letStatement> such that any reasonable statement of the form "let x = 5+y+9-foo" is a valid <letStatement> and any valid <letStatement> is a reasonable statement of the form "let x = 5+y+9-foo".
+
+<letStatement> ::= 'let', identifier, '=', <expression>
+
+[So now an <expression> should encode any reasonable statement of the form "5+y+9-foo".]
+
+<operator> ::= "+" | "-"
+<term> ::= integer literal | identifier
+
+[So a <term> encodes anything of the form "5" or "foo", and an <operator> encodes anything of the form "+" or "-".]
+
+<expression> ::= <term> | <expression> <operator> <expression>
+
+[Any single-term expression like "5" or "foo" is a <term>. Anything else can be broken down into two simpler <expressions> separated by an <operator>.
+
+
+
+<letStatement> ::= 'let', identifier, '=', <expression>
+<operator> ::= "+" | "-"
+<term> ::= integer literal | identifier
+<expression> ::= <term> | <expression> <operator> <expression>
+
+Step 3: Compile. Work recursively. Suppose we're given a lexer and parse tree and are trying to convert a <letStatement> into Hack assembly. How do we do it?
+
+char *compileTerm(term, address) {
+	// Return Hack assembly code that places the given <term> at
+	// the given RAM address.
+	if (term is an integer literal) {
+		return:
+			"@[term]
+			D=A
+			@[address]
+			M=D"
+		// Extra code needed here if the literal is 32,768 or more
+		// so that an @ instruction doesn't work. If it's 65536 or more
+		// then we would need to introduce a type system to handle 
+		// multi-word variables...
+	} else { // term is a variable
+		return:
+			"@[RAM address of variable]
+			D=M
+			@[address]
+			M=D"
+	}
+}
+
+char *compileExpression(expr, address) {
+	// Return Hack assembly code that computes the given <expression>
+	// and places the result at the given RAM address.
+	if (expr is a <term>) {
+		return compileTerm(expr, address)
+	} // Otherwise expr is <expression> <operator> <term>
+	
+	output = ""
+	// Hang on, we might end up using addresses more than once...
+	// But providing memory that's free when evaluating an arithmetic
+	// expression is one of the things a stack is best at, so this will be
+	// fixed later.
+	output += compileExpression(left child, 14) 
+	output += compileExpression(right child, 15)
+	output += "@R14
+	           D=M
+			   @R15"
+	if (operator is "+") {
+		output += "D=D+M"
+	} else { // operator is "-"
+		output += "D=D-M"
+	}
+	output += "@[address]
+	           M=D"
+			   
+What if we change our grammar to allow * and /?
+
+Step 1: "*" and "/" are now tokens.
+
+Step 2: "*" and "/" are now valid choices of <operator>
+
+<letStatement> ::= 'let', identifier, '=', <expression>
+<operator> ::= "+" | "-" | "*"
+<term> ::= integer literal | identifier
+<expression> ::= <term> | <expression> <operator> <expression>
+
+Step 3: In compileExpression, we add boilerplate code to compile multiplication/division.
+
+Step 4: Profit? No. Imagine we are compiling the expression
+
+"let x = 5 + y * 9 - foo".
+
+Parse tree ambiguity! We need the *s to be at the bottom of the tree.
+
+Solution: Modify the grammar!
+
+<letStatement> ::= 'let', identifier, '=', <plusExpression>
+<plusExpression> ::= <timesExpression> | <plusExpression> ("+" | "-") <plusExpression>
+<timesExpression> ::= <term> | <timesExpression> "*" <timesExpression>
+<term> ::= integer literal | identifier
+
+This forces all the +s and -s to the top of the parse tree and all the *s to the bottom, so now the above compilation approach works fine. 
+
+To add brackets:
+
+<letStatement> ::= 'let', identifier, '=', <plusExpression>
+<plusExpression> ::= <timesExpression> | <plusExpression> ("+" | "-") <plusExpression>
+<timesExpression> ::= <parenExpression> | <timesExpression> "*" <timesExpression>
+<parenExpression> :: <term> | '(' <plusExpression> ')'
+<term> ::= integer literal | identifier
