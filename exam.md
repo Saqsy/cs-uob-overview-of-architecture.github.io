@@ -12,7 +12,7 @@ Table of contents
 {:toc}
 </details>
 
-Your grade for the unit will come from two in-class tests, which are exams in all but name. The first will be worth 40%, and will cover Kira's part of the unit; the second will be worth 60%, and will cover John's part of the unit. In each test, half the marks will be from a practical component (where you'll be doing the same sort of thing as in your weekly assignments) and the other half will be from an online theory component on Blackboard (where you'll be doing the same sort of thing as in your weekly workshops). 
+Your grade for the unit will come from two in-class tests, which are exams in all but name. The first will be worth 40%, and will cover Kira's part of the unit; the second will be worth 60%, and will cover John's part of the unit. In each test, half the marks will be from a practical component (where you'll be doing the same sort of thing as in your weekly assignments) and the other half will be from an online theory component on Blackboard (where you'll be doing the same sort of thing as in your weekly workshops).
 
 The first class test **worth 40% of the unit** will be held in week 6 on Friday October 31st at 1pm. For most students, this will be in MVB 2.11 (the same room as your weekly labs). Students with Alternative Exam Arrangements (AEAs) such as extra time will take the test in a different venue, usually MVB 1.15, but will be emailed seperately by the school office to confirm this.
 
@@ -41,7 +41,7 @@ In week 5 we will run a mock test at the start of the Thursday lab, at 1pm on Oc
 
 ## In-class test 1 details
 
-In-class test 1 will consist of two parts. The first part, the theory part, will be an auto-marked Blackboard test in exactly the same format as the Blackboard quizzes from live sessions. It will contain roughly 11 questions and will be marked out of 50. Partial credit will be available for multi-part questions. The second part, the practical part, will ask you to modify and submit a skeleton Logisim file with one subcircuit for each question. It will contain 4 questions and will also be marked out of 50. You will get full marks for any circuit which behaves as specified in the question, with partial marks available for circuits with minor bugs - in particular, you will not be marked based on neatness, choice of components, or your approach to the problem unless this is specifically noted in the question. Each question will have a list of which components you are allowed to use - in addition to this, you may create your own subcircuits or use anything in the "wiring" sub-menu. Your final mark for test 1 will be the sum of your marks for the theory and practical part. 
+In-class test 1 will consist of two parts. The first part, the theory part, will be an auto-marked Blackboard test in exactly the same format as the Blackboard quizzes from live sessions. It will contain roughly 11 questions and will be marked out of 50. Partial credit will be available for multi-part questions. The second part, the practical part, will ask you to modify and submit a skeleton Logisim file with one subcircuit for each question. It will contain 4 questions and will also be marked out of 50. You will get full marks for any circuit which behaves as specified in the question, with partial marks available for circuits with minor bugs - in particular, you will not be marked based on neatness, choice of components, or your approach to the problem unless this is specifically noted in the question. Each question will have a list of which components you are allowed to use - in addition to this, you may create your own subcircuits or use anything in the "wiring" sub-menu. Your final mark for test 1 will be the sum of your marks for the theory and practical part.
 
 You will be allowed use of the exam version of Logisim **only**, available [here](../exam_files/LogiExam.jar). The only difference between this and the normal version of Logisim is that it removes the Project -> Analyse Circuit menu option, which gives various options like automatically building a circuit from a truth table that would be too powerful in an exam setting. Use of the non-exam version of Logisim will be considered academic malpractice (i.e. cheating).
 
@@ -55,7 +55,7 @@ You will be given rough paper and a physical copy of [this reference sheet](../e
 
 During the test, an invigilator may briefly interrupt you and ask to see all the applications you have open. This is typically nothing to worry about - we will be carrying out these checks randomly throughout the test to prevent cheating, and they only take a few seconds.
 
-Results and feedback will be made available no later than 2-3 weeks after the test, accompanied by a Blackboard announcement. 
+Results and feedback will be made available no later than 2-3 weeks after the test, accompanied by a Blackboard announcement.
 
 ## In-class test 1 examinability
 
@@ -116,6 +116,41 @@ Results and feedback will be made available in January by email at the same time
 
 ## In-class test 2 examinability
 
-By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.) 
+## In-class test 2 examinability
 
-A detailed list of non-examinable material will be made available closer to the time, when the material has been covered.
+By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.)
+
+Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Here is a full list of what is **<u>not</u>** examinable:
+
+**General:**
+
+* You will not be examined on your ability to program in C or your knowledge of C syntax. However, you are expected to understand the basic concepts of programming taught in that unit (e.g. loops, functions, pointers etc.) insofar as this unit relies on it, and questions may use examples from C for illustrative purposes. For example, a question might refer to “an abstract data type (such as a struct in C)”.
+* Specific details of C’s behaviour not covered in Programming in C (like the difference between char *myArray = “Hello, world!”; and char myArray[] = “Hello, world!”; covered in week 11 video 3) are also non-examinable and are provided purely for illustrative purposes.
+* You will only be examined on weeks 1-4 insofar as weeks 5 and 7-11 rely on this content. For example, you will not be asked to convert a hexadecimal number into decimal as a question in its own right, but you may well be given a memory address in hexadecimal format and need to convert that address into decimal format as part of answering a larger question in the practical part of the exam.
+* You will not be asked to design any circuits or to use Logisim in the practical part of the exam.
+* The specific solutions for weekly assignments from weeks 5, 7, 8 and 11 are non-examinable except insofar as they overlap with lectures. For example, you will be expected to know how to write a program like checkerfill.asm from the week 5 assignment, but you will not be expected to have memorised checkerfill.asm and you won’t be asked to reproduce it.
+* The C code for weekly assignments from weeks 9 and 10 is non-examinable, but you will be expected to know how to translate Hack VM code into Hack assembly code and may be asked to do so (as in the practice papers).
+* Any specific details of non-Hack assembly languages are non-examinable. For example, you will be expected to understand the difference between direct and indirect addressing from week 7 video 3, but you will not be expected to remember the ARM syntax for either. General properties of non-Hack assembly languages (such as that ARM is used in most modern mobile devices) remain examinable.
+
+**Week 5:**
+
+* The definition of a Turing machine in video 3 is non-examinable. The other contents of the slide (the Church-Turing thesis, Turing-completeness, and the Halting Problem) are examinable, though only at the level covered by the slide.
+
+**Week 7:**
+
+* Exact details of specific CPUs mentioned in videos 3-4, such as the number of cycles required per instruction or the time in nanoseconds to retrieve data from memory. (However, you are expected to remember the key qualitative details that are common across all CPUs, such as L3 cache access being slower than L1 cache access.)
+
+**Week 8:**
+
+* The Hack assembly grammar is examinable, but you don’t need to memorise the definition – if questions are asked about it, you will be given the relevant excerpts of the EBNF. The same is true for the grammars covered in video 3.
+* The last slide of video 2 (on using multiple symbol tables to handle scopes in a high-level language) is only examinable insofar as it overlaps with the week 11 material.
+
+**Week 9:**
+
+* The Hack VM grammar is examinable, but you don’t need to memorise the definition – if questions are asked about it, you will be given the relevant excerpts of the EBNF.
+
+**Week 11:**
+
+* Week 11 is an illustration of the general principles of how to compile a high-level language into a lower-level one and moves much faster than the rest of the unit. As such, it is mostly non-examinable with the following exceptions.
+* The process of parsing Jack is non-examinable, but given a CST, questions may be asked about compiling the most basic building blocks of a high-level language into Hack assembly via Hack VM: expressions, variables, if-else statements, while loops and functions. Classes, methods, and string literals are all non-examinable.
+* Questions may be asked based on the Jack grammar (e.g. "which of these is a valid AST for the following \<expression\>?"). In this case, the relevant excerpt from the grammar will be provided; thus these are really questions about the material covered in week 8.
