@@ -116,8 +116,6 @@ Results and feedback will be made available in January by email at the same time
 
 ## In-class test 2 examinability
 
-## In-class test 2 examinability
-
 By default, all material covered in lecture slides and in assignments is examinable, and all material covered only in live sessions or in recommended reading is non-examinable. (Material covered in e.g. both the lecture slides and live sessions is of course examinable.)
 
 Some material is non-examinable despite appearing in lecture slides or assignments - this is usually flagged at the time. Here is a full list of what is **<u>not</u>** examinable:

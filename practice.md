@@ -127,7 +127,7 @@ While Start/Stop is 1: On a rising clock edge, if Reset is low, then the value o
 
 Permitted components: All components are permitted.
 
-## Test 2 practice questions
+## Test 2 practice papers
 
 Two practice papers are available below; the actual test will be similar in form and content.
 
@@ -135,6 +135,8 @@ Two practice papers are available below; the actual test will be similar in form
 * [Practice paper A: Practical part](../exam_files/Paper_2A_practical.pdf) ([model answers](../exam_files/Paper_2A_practical_answers.zip))
 * [Practice paper B: Theory part](https://www.ole.bris.ac.uk/ultra/courses/_264263_1/outline/assessment/test/_9707672_1?courseId=_264263_1&gradeitemView=details) (model answers available on submission)
 * [Practice paper B: Practical part](../exam_files/Paper_2B_practical.pdf) ([model answers](../exam_files/Paper_2B_practical_answers.zip))
+
+## Test 2 practice questions
 
 We also encourage you to go back over the weekly Blackboard quizzes (for the theory part), and the weekly assignments (for the practical part). Some additional practice practical questions are below, with solutions available [here](https://cs-uob-overview-of-architecture.github.io/practice/test-2-solutions.zip). These questions are further from the exam than the practice papers above, but still practice the same skills the exam will require.
 
