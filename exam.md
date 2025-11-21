@@ -99,7 +99,7 @@ In-class test 2 will consist of two parts. The first part, the theory part, will
 
 You will be allowed use of the following software **only**:
 
-* Our fork of the Hack CPU emulator.
+* Our fork of the Hack CPU emulator and Hack assembler.
 * A web browser (which may only be used to fill out the theory part of the test and submit the practical part of the test).
 * The pre-installed text editor "Text editor" to write your assembly code. (You are not allowed to use VS Code, as there are Hack plugins available for it.)
 * The pre-installed calculator apps (Calculator and KCalc) in any mode.
