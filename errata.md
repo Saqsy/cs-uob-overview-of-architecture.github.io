@@ -40,3 +40,7 @@ In EBNF, the A - B syntax for anything that matches A but doesn't match B is onl
 ## Week 9 video 4
 
 Slide 8 says that "temp is allocated a fixed segment of length 8 and base address 5 = TEMP" - this is all true except that TEMP is not a valid keyword in Hack assembly.
+
+## Week 10 video 3
+
+The last bullet point of slide 6 starts "Jump to the return value" - this should read "Jump to the return address".
