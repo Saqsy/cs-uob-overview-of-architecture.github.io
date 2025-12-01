@@ -1,0 +1,104 @@
+function Main.next 0
+push argument 0
+pop pointer 0 
+push this 0
+return
+
+
+
+function Main.insert_after 0
+push argument 2
+pop pointer 0
+push argument 0
+pop pointer 1
+push that 0
+pop this 0
+push argument 1
+pop this 1
+push argument 2
+pop that 0
+push constant 200
+return
+
+
+
+function Main.dump 2
+push argument 0
+pop local 0
+push argument 1
+pop local 1
+
+label dump_loop_start
+push local 0
+push constant 1
+add
+push constant 0
+eq
+if-goto dump_loop_end
+
+push local 1
+pop pointer 0
+push local 0
+pop pointer 1
+push that 1
+pop this 0
+
+push local 0
+call Main.next 1
+pop local 0
+
+push local 1
+push constant 1
+add
+pop local 1
+
+goto dump_loop_start
+label dump_loop_end
+
+push constant 42
+return
+
+
+
+function Main.main 0
+
+push constant 3000
+pop pointer 0
+push constant 1
+neg
+pop this 0
+
+push constant 3000
+push constant 1
+push constant 3015
+call Main.insert_after 3
+pop temp 0 
+
+push constant 3000
+push constant 3
+push constant 3006
+call Main.insert_after 3
+pop temp 0
+
+push constant 3006
+push constant 2
+push constant 3012
+call Main.insert_after 3
+pop temp 0
+
+push constant 3000
+push constant 5
+push constant 3003
+call Main.insert_after 3
+pop temp 0
+
+push constant 3003
+push constant 4
+push constant 3009
+call Main.insert_after 3
+pop temp 0
+
+push constant 3003
+push constant 4000
+call Main.dump 2
+return

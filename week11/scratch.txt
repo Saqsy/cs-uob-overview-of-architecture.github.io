@@ -1,0 +1,197 @@
+-----------------------------------
+DESIRED LINKED LIST INTERFACE
+-----------------------------------
+
+insert_after x y z: Insert a new node after the node at address x. The new node should contain data y (an integer) and be based at address z.
+
+next x: Given a pointer to a node at address x, returns the pointer to the next node in the list.
+
+dump x y: Writes the linked list starting at address x into RAM starting at address y.
+
+Structure for a node at address x:
+
+RAM[x] contains a pointer to the next node (or -1 if no next node)
+RAM[x+1] contains the data stored in that node.
+
+-----------------------------------
+IMPLEMENTING NEXT
+-----------------------------------
+
+Pseudocode for next(x):
+	return RAM[x];
+
+Implementation:
+[x is argument 0]
+[So goal is to return RAM[argument 0] = RAM[x] - we must go from x to RAM[x].]
+[We can do this by setting the base of "this" to x, so this 0 = RAM[x].]
+[To set the base of "this" to x, we must set pointer 0 = x = argument 0.]
+
+function Main.next 0
+push argument 0
+pop pointer 0 
+push this 0
+return
+
+-----------------------------------
+IMPLEMENTING INSERT_AFTER
+-----------------------------------
+
+Pseudocode for insert_after(x,y,z):
+	// Node data for new node should be y.
+	// Next node pointer for new node should be RAM[x].
+	// Base of new node should be z.
+	RAM[z] = RAM[x];
+	RAM[z+1] = y;
+	RAM[x] = z;
+	return;
+
+[x is argument 0, y is argument 1, z is argument 2.]
+[Here, we need to access RAM[z], RAM[z+1] and RAM[x].]
+[After setting pointer 0 = z, we get this 0 = RAM[z] and this 1 = RAM[z+1].]
+[After setting pointer 1 = x, we get that 0 = RAM[x].]
+[Return a dummy value of 200 (could be anything) to avoid stack underflow.]
+
+function Main.insert_after 0
+push argument 2
+pop pointer 0
+push argument 0
+pop pointer 1
+push that 0
+pop this 0
+push argument 1
+pop this 1
+push argument 2
+pop that 0
+push constant 200
+return
+	
+-----------------------------------
+IMPLEMENTING DUMP
+-----------------------------------
+	
+Pseudocode for dump(x, y):
+	int cur_node_address = x;
+	int address_to_write = y;
+	
+	while(cur_node_address != -1) {
+		RAM[address_to_write] = RAM[cur_node_address + 1];
+		cur_node_address = next(cur_node_address);
+		address_to_write++;
+	}
+	return;
+
+[x is argument 0, y is argument 1, cur_node_address is local 0, address_to_write is local 1.]
+
+function Main.dump 2
+push argument 0
+pop local 0
+push argument 1
+pop local 1
+
+label dump_loop_start
+
+[To implement the while loop: Jump to dump_loop_end if cur_node_address == -1, i.e. if cur_node_address + 1 == 0.]
+
+[1. Get cur_node_address + 1 on the stack. 2. Add 0 to the stack and call eq to get cur_node_address + 1 == 0 on the stack. 3. Use an if-goto.]
+
+push local 0
+push constant 1
+add
+push constant 0
+eq
+if-goto dump_loop_end
+
+RAM[address_to_write] = RAM[cur_node_address + 1]:
+Set pointer 0 to address_to_write
+Set pointer 1 to cur_node_address
+Write that 1 to this 0
+
+push local 1
+pop pointer 0
+push local 0
+pop pointer 1
+push that 1
+pop this 0
+
+//cur_node_address = next(cur_node_address);
+push local 0
+call Main.next 1
+pop local 0
+
+// address_to_write++;
+push local 1
+push constant 1
+add
+pop local 1
+
+goto dump_loop_start
+label dump_loop_end
+
+push constant 42 // Avoids stack underflow
+return
+
+-----------------------------------
+DEMONSTRATION CODE
+-----------------------------------
+
+Goal for Main.main:
+	Build a linked list with start pointer at RAM[3000] and nodes at RAM[3003], RAM[3009], RAM[3006], RAM[3012], RAM[3015] with values 5, 4, 3, 2 and 1 in that order, then dump it to memory at RAM[4000]-RAM[4004].
+	
+Pseudocode:
+	RAM[3000] = -1;
+	insert_after(3000, 1, 3015);
+	insert_after(3000, 3, 3006);
+	insert_after(3006, 2, 3012);
+	insert_after(3000, 5, 3003);
+	insert_after(3003, 4, 3009);
+	dump(3000, 4000);
+	
+[Order chosen for illustration.]
+
+VM code:
+function Main.main 0
+
+[RAM[3000] = -1 first.]
+push constant 3000
+pop pointer 0
+push constant 1
+neg
+pop this 0
+
+push constant 3000
+push constant 1
+push constant 3015
+call Main.insert_after 3
+[Throw away the meaningless return value.]
+pop temp 0 
+
+push constant 3000
+push constant 3
+push constant 3006
+call Main.insert_after 3
+pop temp 0
+
+push constant 3006
+push constant 2
+push constant 3012
+call Main.insert_after 3
+pop temp 0
+
+push constant 3000
+push constant 5
+push constant 3003
+call Main.insert_after 3
+pop temp 0
+
+push constant 3003
+push constant 4
+push constant 3009
+call Main.insert_after 3
+pop temp 0
+
+push constant 3003
+push constant 4000
+call Main.dump 2
+return
+
+Running this in the VM emulator (using the default Sys.init by clicking "yes" at the prompt) gives RAM[4000] = 5, ..., RAM[4004] = 1 as expected.
