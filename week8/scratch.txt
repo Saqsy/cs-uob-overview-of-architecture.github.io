@@ -26,14 +26,14 @@ RAM[0x4000] = 0b1
 RAM[0x4020] = 0b11
 RAM[0x4040] = 0b111
 ...
-RAM[0x42A0] = 0b1111 1111 1111 1111
+RAM[0x41E0] = 0b1111 1111 1111 1111
 
 Then this pattern repeats in the next row, shifted to the right.
 
 So e.g. RAM[0x42C0] = 0b1111 1111 1111 1111, RAM[0x42C1] = 0b1.
 
 // Address of the start of the row we're currently writing to
-int rowstart = 0x4000; 
+int rowstart = 0x4000;
 // Number of all-black words at the start of the row we're currently writing to
 int rowlength = 0;
 // Value to write at the end of the current row
