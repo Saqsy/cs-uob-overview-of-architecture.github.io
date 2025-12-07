@@ -16,7 +16,7 @@ Table of contents
 
 Hi all,
 
-Following a timetabling snafu that saw our usual workshop slot get taken by Programming in C, we now have a new one set up for 2pm on **Friday** (not Monday!) December 12th. Since most of week 11 is non-examinable we're setting this up as a general revision workshop - it would be a good time to work on one of the [practice papers](../practice#test-2-practice-papers) for test 2 with TA support in the room. We'll also be active on Teams, so you can alwats ask any questions there as well.
+Following a timetabling snafu that saw our usual workshop slot get taken by Programming in C, we now have a new one set up for 2pm on **Friday** (not Monday!) December 12th. Since most of week 11 is non-examinable we're setting this up as a general revision workshop - it would be a good time to work on one of the [practice papers](../practice#test-2-practice-papers) for test 2 with TA support in the room. We'll also be active on Teams, so you can always ask any questions there as well.
 
 Finally, by popular demand we've made a non-C version of the week 9-10 lab solutions demonstrating how to translate Hack VM code into assembly, which is available [here](../week10/non-c-solutions.txt). We stress that there are a lot of ways to do this - for any exam question that asks you to translate from Hack VM into assembly, the important point will be that your code does the right thing rather than that it matches the given solution in the details of how values get copied from one memory location to another. Please don't try to memorise 200-odd lines of assembly code - just learn the general principles that allow you to quickly recreate it from scratch.
 
