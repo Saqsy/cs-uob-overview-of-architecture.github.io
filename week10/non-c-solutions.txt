@@ -33,12 +33,12 @@ M=D
 push [static/pointer/temp] [number
 ------------------------------------------------------------------
 
-RAM[SP] = RAM[256/3/8 + number]
+RAM[SP] = RAM[16/3/5 + number]
 SP += 1
 
 @[number]
 D=A
-@[256 for static, 3 for pointer, 8 for temp]
+@[16 for static, 3 for pointer, 5 for temp]
 A=A+D
 D=M
 @SP
