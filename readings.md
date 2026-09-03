@@ -15,7 +15,7 @@ Table of contents
 
 ## Generally-useful textbooks
 
-This course will use three main textbooks. None of them are required reading, but if you're having trouble with a concept from lectures then they're good places to look to see that concept explained in another way.
+This course will use four main textbooks. None of them are required reading, but if you're having trouble with a concept from lectures then they're good places to look to see that concept explained in another way. All are available for free, so don't buy them unless you've already found them useful.
 
 **The Elements of Computing Systems** (2021) by Noam Nisan and Shimon Schocken. Like this unit, the book is based around the Hack architecture, and many of our weekly assignments are based around the projects in this book. It's well-written and pleasantly informal, but also very Hack-centric - it's not a good place to look for a grounding in more general concepts. It's available for free in eBook form from the University of Bristol library [here](http://www.bris.ac.uk/library/).
 
@@ -25,7 +25,9 @@ This course will use three main textbooks. None of them are required reading, bu
 
 **Introduction to Compilers and Language Design** (2023) by Douglas Thain. For our purposes, this book is very interesting but almost entirely overkill - it takes a similar tack to Nystrom's book but goes farther and is more technical. We're planning to reference a couple of chapters for introductory concepts, but for the most part this is a book to check out if you want to take a closer look at some of the theoretical concepts we'll be sweeping under the rug in the name of covering more material (particularly if you have a mathematical background). It's available for free from the author's website [here](https://www3.nd.edu/~dthain/compilerbook/).
 
-## Week 1 reading
+**<font color=FF7B72>No readings yet!</font>**
+
+<!--## Week 1 reading
 
 **The Elements of Computing Systems:** Chapter 1.1 covers Boolean algebra, chapter 1.2 covers logic gates.
 
@@ -98,4 +100,4 @@ This course will use three main textbooks. None of them are required reading, bu
 * Chapter 11 is a detailed guide to compiling Jack post-parsing.
 * Appendix 5 contains the map between char and int variables (which you don't actually need for compiling), and Appendix 6 contains the list of standard library/"operating system" functions.
 
-**Introduction to Compilers and Language Design:** The parser we use is a recursive descent parser - these are discussed in chapter 4.3.4 from the point of view of LL(1) languages, and the idea for an LL(2) language is essentially the same (but with the extra lookahead token). If you're interested in type systems and type checking, chapter 7 gives a good introduction while avoiding the more hardcore type theory. Chapter 11 discusses generating code from the parse tree and symbol tables, and chapter 12 discusses optimisation.
+**Introduction to Compilers and Language Design:** The parser we use is a recursive descent parser - these are discussed in chapter 4.3.4 from the point of view of LL(1) languages, and the idea for an LL(2) language is essentially the same (but with the extra lookahead token). If you're interested in type systems and type checking, chapter 7 gives a good introduction while avoiding the more hardcore type theory. Chapter 11 discusses generating code from the parse tree and symbol tables, and chapter 12 discusses optimisation.-->

@@ -15,7 +15,7 @@ Table of contents
 
 ## LogiExam
 
-Logisim is a widely-beloved free cross-platform application for designing and simulating digital circuits, which you will use for your weekly assignments throughout the first half of the unit as well as your first exam. This unit will mostly use a trivial fork of Logisim called LogiExam. The only difference between Logisim and LogiExam is that in LogiExam the Project -> Analyse Circuit menu option is disabled, since this gives various options like automatically building a circuit from a truth table that would be too powerful in a test setting. As such, we will consider use of the unmodified version of Logisim in a test setting to be academic malpractice (i.e. cheating).
+Logisim is a widely-beloved free cross-platform application for designing and simulating digital circuits, which you will use for your weekly assignments throughout the first half of the unit. This unit will mostly use a trivial fork of Logisim called LogiExam. Despite the name, it will not actually be used for exams - we're transitioning from computer-based exams to paper-based exams this year, but the name has stuck. 
 
 On lab computers, LogiExam is installed by default and should be accessible from the menu. You can also install LogiExam on your own machine. It's available [here](../exam_files/LogiExam.jar) - the same .jar file works on Windows, Mac and Linux. You will first need to make sure you have a current version of the JDK installed from [here](https://www.oracle.com/uk/java/technologies/downloads/#jdk21-windows). Then place LogiExam.jar in the working directory from which you start your terminal and where you intend to keep your work. You can then run it from the terminal as follows:
 
@@ -29,17 +29,17 @@ If you need help with using LogiExam, you can refer to the Logic gate lecture an
 
 ### Other versions of LogiExam
 
-There are two other versions of LogiExam you may want to use. The first is the original Logisim, for the Project -> Analyse Circuit menu option - while you are not allowed to use this option in tests, you may find it helpful for debugging circuits in weekly assignments or in revising for the test. You can download it [here](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/). You will have three choices of which Logisim release to download:
+There are two other versions of LogiExam you may want to use. The first is the original Logisim, for the Project -> Analyse Circuit menu option. This is a bit of a crutch, as in exams you'll need to be able to do this by hand,, but you may find it helpful for debugging circuits. You can download it [here](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/). You will have three choices of which Logisim release to download:
 
 1. A Windows .exe file: recommended for Windows.
 1. A .jar file: recommended for Mac or Linux.
 1. A .tar.gz file: this is labelled as the "Mac version", but in our experience Mac users are better off with the .jar file.
 
-The second is Logisim Evolution, which is available [here](https://github.com/logisim-evolution/logisim-evolution) and is pre-installed on the lab machines. This is a newer fork of Logisim which (unlike the original) is actively maintained and which has more features. Unfortunately, the interface is also subtly different from LogiExam and the original Logisim, and there is limited compatibility between the two programs. Given that the extra features are mostly overkill for this unit and that you'll have to use the original Logisim in tests anyway, it's much better to avoid it for the most part.
+The second is Logisim Evolution, which is available [here](https://github.com/logisim-evolution/logisim-evolution) and is pre-installed on the lab machines. This is a newer fork of Logisim which (unlike the original) is actively maintained and which has more features. Unfortunately, the interface is also subtly different from LogiExam and the original Logisim, and there is limited compatibility between the two programs. Given that the extra features are mostly overkill for this unit, it's better to avoid it for the most part.
 
 ## NAND boards
 
-You will use NAND boards in labs for the first part of the unit. They are open source, and were created for the University of Bristol by Simon Hollis and Dan Page. There is an excellent introduction video [here](https://www.youtube.com/watch?v=DJDXp7yXp-w) explaining how to use them, and a GitHub repository [here](https://github.com/danpage/nandboard) containing the designs, photos, and more information on the boards. (They probably won't make sense until after you've watched the week 1 lecture videos, though!)
+You will use NAND boards in labs for the first part of the unit. They are open source, and were created for the University of Bristol by Simon Hollis and Dan Page. There's' a GitHub repository [here](https://github.com/danpage/nandboard) containing the designs, photos, and more information on the boards. (They probably won't make sense until after you've watched the week 1 lecture videos, though!)
 
 In short, NAND boards are a set of four chips, each containing four NAND gates. Each gate has a set of input pins and output pins. In addition to the pins for the gate input and output, there are pins providing logic 1. You may notice that there are no logic 0 pins. This is because an unconnected input will default to 0 (there is a pull-down circuit that keeps the input at 0 if it is unconnected). LEDs on the boards signify the output level of each NAND gate. The boards are powered by a USB cable.
 
@@ -57,7 +57,7 @@ We very strongly recommended that you design and test your circuit using Logisim
 
 ## Nand2Tetris
 
-The Nand2Tetris software suite is a set of tools for simulating various parts of the Hack architecture, which you will use for labs throughout the second half of the unit and as well as your second exam. This unit isn't the same as the Nand2Tetris course and doesn't use the entire software suite. We have also forked our own copy of the CPU simulator which adds a few features and fixes a few bugs - full credit for this goes to Ali Jardine, a past student who worked on this for his summer project. We have bundled the components we use [here](nand2tetris.zip). As with Logisim, they need a working Java installation. To run them, just extract the zip file and run the relevant .bat or .sh file for anything other than the CPU emulator, or java -jar CPUEmulator.jar from the terminal for the CPU emulator. 
+The Nand2Tetris software suite is a set of tools for simulating various parts of the Hack architecture, which you will use for labs throughout the second half of the unit. This unit isn't the same as the Nand2Tetris course and doesn't use the entire software suite. We have also forked our own copy of the CPU simulator which adds a few features and fixes a few bugs - full credit for this goes to Ali Jardine, a past student who worked on this for his summer project. We have bundled the components we use [here](nand2tetris.zip). As with Logisim, they need a working Java installation. To run them, just extract the zip file and run the relevant .bat or .sh file for anything other than the CPU emulator, or java -jar CPUEmulator.jar from the terminal for the CPU emulator. 
 
 We'll be showing you how to use this software in lecture videos as they come up. There's also extensive documentation available on the [official website](https://www.nand2tetris.org/software) for all these tools except the Jack compiler, which is a simple command line utility:
 
@@ -65,7 +65,7 @@ We'll be showing you how to use this software in lecture videos as they come up.
 * [Assembler documentation](https://www.nand2tetris.org/_files/ugd/44046b_759f4f811ad14e12ac45bc60dd679fa3.pdf)
 * [VM emulator documentation](https://www.nand2tetris.org/_files/ugd/44046b_b74d071ee4b74279b211acede232ced9.pdf)
 
-If you're having a lot of trouble getting the software working on your own computer, there is also an official [online version](https://nand2tetris.github.io/web-ide/asm) of the whole suite available here. For now, we recommend using the offline bundle above instead, for several reasons. First, as of October 2024 the online version hadn't quite reached feature parity with the offline version with several useful features (like breakpoints) missing. Second, the CPU simulator lacks the extra features introduced by our fork. And third (and maybe most importantly), the interface is quite different, and the offline version is what you'll be using in the exam!
+If you're having a lot of trouble getting the software working on your own computer, there is also an official [online version](https://nand2tetris.github.io/web-ide/asm) of the whole suite available here. For now, we recommend using the offline bundle above instead, for two reasons. First, as of September 2026 the online version hasn't quite reached feature parity with the offline version with several useful features (like breakpoints) missing. And second, the CPU simulator lacks the extra features introduced by our fork (like stepping backwards).
 
 Like the original, our fork of the CPU simulator is open source and licensed under the Creative Commons [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license. The source code is available on GitHub [here](https://github.com/SecretsAndLies/nand2tetris-bolt/). The biggest new features it introduces (which are therefore not covered in the documentation above) are:
 

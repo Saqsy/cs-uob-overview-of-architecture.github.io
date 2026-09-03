@@ -15,7 +15,9 @@ Table of contents
 
 Any errata will be linked from the video itself on the front page and fixed in the slides, so there's no need to keep checking back here.
 
-## Week 1 intro talk
+**<font color=FF7B72>No errata yet!</font>**
+
+<!--## Week 1 intro talk
 
 Slide 7 referred to the "Tuesday live sessions" - Tuesday should have read Monday, these are the normal workshops you have timetabled from 1pm-3pm.
 
@@ -47,4 +49,4 @@ The last bullet point of slide 6 starts "Jump to the return value" - this should
 
 ## Week 11 video 1
 
-The summary example on slide 14 has been corrected and adjusted - the method now uses the correct syntax as set out on slide 12, and I added a line with a free/Memory.deAlloc to give an example use of "this". Also changed the foo declaration code on the left both on slide 14 and slide 13 - the point is that objects in Jack are stored as pointers to that object's memory, so the corresponding C code should define a pointer as well.
+The summary example on slide 14 has been corrected and adjusted - the method now uses the correct syntax as set out on slide 12, and I added a line with a free/Memory.deAlloc to give an example use of "this". Also changed the foo declaration code on the left both on slide 14 and slide 13 - the point is that objects in Jack are stored as pointers to that object's memory, so the corresponding C code should define a pointer as well.-->
