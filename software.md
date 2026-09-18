@@ -29,7 +29,7 @@ If you need help with using LogiExam, you can refer to the Logic gate lecture an
 
 ### Other versions of LogiExam
 
-There are two other versions of LogiExam you may want to use. The first is the original Logisim, for the Project -> Analyse Circuit menu option. This is a bit of a crutch, as in exams you'll need to be able to do this by hand,, but you may find it helpful for debugging circuits. You can download it [here](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/). You will have three choices of which Logisim release to download:
+There are two other versions of LogiExam you may want to use. The first is the original Logisim, for the Project -> Analyse Circuit menu option. This is a bit of a crutch, as in exams you'll need to be able to do this by hand, but you may find it helpful for debugging circuits. You can download it [here](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/). You will have three choices of which Logisim release to download:
 
 1. A Windows .exe file: recommended for Windows.
 1. A .jar file: recommended for Mac or Linux.

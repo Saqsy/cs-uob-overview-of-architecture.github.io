@@ -52,4 +52,7 @@ The schedule below acts as a quick reference and link hub, and will be updated e
 
 ## Schedule and links to materials
 
-Most of the material below (especially recordings of Q&As and problem classes) will require you to log in to University of Bristol systems. **<font color=FF7B72>First release of materials due Friday September 19th.</font>**
+Most of the material below (especially recordings of Q&As and problem classes) will require you to log in to University of Bristol systems.
+
+| Week 1 | **Friday 18/09**<br>_Videos released_ | _1-1: Boolean algebra_<br> [video](https://mediasite.bris.ac.uk/Mediasite/Play/5eed5e0eb3304ba8a3ea72aac62082f91d), [slides](../week1/1.1_boolean_algebra.pdf) | _1-2: Finding formula_<br> [video](https://mediasite.bris.ac.uk/Mediasite/Play/59097be1ff3c462e963fdae1a9f233771d), [slides](../week1/1.2_finding_formula.pdf)|
+| | [Optional resources](../readings/#week-1-reading) | _1-3: Logic gates_<br> [video](https://mediasite.bris.ac.uk/Mediasite/Play/9c59a68333d64fe38ddcda01b2080fa21d), [slides](../week1/1.3_logic_gates.pdf) | _1-4: NAND_<br> [video](https://mediasite.bris.ac.uk/Mediasite/Play/1e731480e83e480d802eb60dac468f2e1d), [slides](../week1/1.4_nand.pdf) |
