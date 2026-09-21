@@ -19,7 +19,7 @@ Before contacting anyone, it's worth skimming through this FAQ (or using the ful
 ### I need help understanding a concept from the unit. What should I do?
 
 You have several good options:
-1. Ask a question in the [unit team](https://teams.microsoft.com/l/channel/19%3A-C1mntYz_enrIpuskEuaHKfzw5YsxUKp7drZk2gre8g1%40thread.tacv2/General?groupId=9f51e45f-a8c1-4e5d-a0bf-12553fc32b76&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b), and a TA or lecturer will answer within two working days (usually sooner). Try to make your question specific, though - "I don't understand the link between truth tables and electrical signals" will get you a more helpful response than "I don't understand gates".
+1. Ask a question in the [unit team](https://teams.microsoft.com/l/channel/19%3AOqiU4Y-_ISn-0ka9LP5W3sEbYZ6dq25VGMTZpvp18NA1%40thread.tacv2/General?groupId=86d6d190-678d-41c3-b951-33068426d92b&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b), and a TA or lecturer will answer within two working days (usually sooner). Try to make your question specific, though - "I don't understand the link between truth tables and electrical signals" will get you a more helpful response than "I don't understand gates".
 1. Ask a question in the weekly Q&A, which you can do either in the room or anonymously via Padlet. I'll prioritise questions about the current week's material, but you can ask questions about earlier weeks as well.
 1. Ask a lecturer or TA during one of the weekly live sessions or labs. 
 1. Attend one of the weekly Monday office hours or TA drop-in sessions (on most other days) and ask a lecturer or TA there.
@@ -54,4 +54,4 @@ As set out above, please don't contact us for general questions about the unit -
 
 ## The unit team
 
-Everyone taking this unit should have been added to a [Microsoft Team](https://teams.microsoft.com/l/channel/19%3A-C1mntYz_enrIpuskEuaHKfzw5YsxUKp7drZk2gre8g1%40thread.tacv2/General?groupId=9f51e45f-a8c1-4e5d-a0bf-12553fc32b76&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b). Access to lecture videos will be restricted to members of this team. If you've joined the unit late, you might not have been added - in that case, please email us and we'll add you ourselves.
+Everyone taking this unit should have been added to a [Microsoft Team](https://teams.microsoft.com/l/channel/19%3AOqiU4Y-_ISn-0ka9LP5W3sEbYZ6dq25VGMTZpvp18NA1%40thread.tacv2/General?groupId=86d6d190-678d-41c3-b951-33068426d92b&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b). Access to lecture videos will be restricted to members of this team. If you've joined the unit late, you might not have been added - in that case, please email us and we'll add you ourselves.
