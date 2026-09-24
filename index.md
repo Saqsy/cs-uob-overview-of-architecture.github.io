@@ -40,7 +40,11 @@ A **<u>weekly assignment</u>** and **solutions to last week's assignment** will 
 
 Using AI, while again not explicitly banned, is generally a bad idea. In John's personal experience, getting your first understanding of a subject from AI is roughly equivalent to reaching into a shark tank to pull out a prime steak - it's not completely impossible, but it needs to be done with extreme care to avoid long-term damage. If you instead find using AI to learn easy, then you should consider this a stronger warning sign rather than a weaker one, as this suggests you aren't even seeing the traps! Thankfully there are many far better places to ask for help (see below and also [here](../help/)). Other units have different policies - Bristol usually *does* ban AI when you're doing work that forms part of your unit mark.
 
-**<u>Office hours</u>** are hour-long **optional** (and hence untimetabled) sessions in which you can ask Kira or John questions one-on-one or with a small group of friends. These take place at 10am on Wednesdays in MVB 2.59. We also expect have an assortment of **optional** hour-long drop-in sessions with TAs throughout the week. **<font color=FF7B72>(Times and rooms TBD.)</font>**
+**<u>Office hours</u>** are hour-long **optional** (and hence untimetabled) sessions in which you can ask Kira or John questions one-on-one or with a small group of friends. We also have an assortment of **optional** hour-long drop-in sessions with TAs throughout the week.
+
+- Mondays 11-12, weeks 2-5 & 7-12 in MVB 4.01 with Alex
+- Wednesdays 10-11, weeks 1-5 & 7-12 in MVB 2.59 with Kira (weeks 1-4) or John (weeks 5, 7-12)
+- Fridays 11-12, weeks 1-5 & 7-12 in MVB 4.01 with Mahesh
 
 **<u>Q&A sessions</u>** take place every Tuesday at 1pm in room LT3 of the Chemistry Building. These are hour-long optional sessions in which Kira and I answer any questions about the unit you might have - for example, questions about the video lectures, the weekly assignment, the live workshop (see below), or the exam. You can ask questions in advance or from online during the session via Padlet, and a TA will handle online questions as they come in. Importantly, using Padlet, you can ask questions anonymously. Attendance is optional, but encouraged if you're having difficulty with any part of the week's material. All Q&A sessions will be recorded, and the recordings will be made available later.
 
