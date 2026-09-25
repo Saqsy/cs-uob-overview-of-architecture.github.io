@@ -31,7 +31,7 @@ This course will use four main textbooks. None of them are required reading, but
 
 **Digital Design and Computer Architecture:** Chapters 1.5 and 2.4 cover logic gates, chapters 2.2 and 2.3 cover Boolean algebra, chapter 2.5.2 covers bubble pushing, and chapter 2.7 covers Karnaugh maps.
 
-<!--## Week 2 reading
+## Week 2 reading
 
 **The Elements of Computing Systems:** Section 1.4.2 covers plexers, chapter 2.2 covers binary numbers, chapter 2.3 covers binary addition, chapter 2.4 covers 2's complement, chapter 2.5 covers adders and the Hack ALU.
 
@@ -39,7 +39,7 @@ This course will use four main textbooks. None of them are required reading, but
 
 **What every computer scientist should know about floating-point arithmetic:** Found [here](https://dl.acm.org/doi/10.1145/103162.103163), provides useful but non-examinable information on floating point rounding errors.
 
-## Week 3 reading
+<!--## Week 3 reading
 
 **The Elements of Computing Systems:** Chapter 3 covers timing diagrams, the clock, registers, and memory in general. It takes D flip-flops as a black box (which it calls a DFF) rather than explaining how they work, but does a good job of explaining how they work and how to use them.
 
